@@ -28437,7 +28437,7 @@ arm9:
       description: |-
         Use unknown.
         
-        No params. 
+        No params.
   data:
     - name: SECURE
       address:

@@ -85,7 +85,7 @@ overlay24:
       description: |-
         Use unknown.
         
-        No params. 
+        No params.
   data:
     - name: OV24_STATIC_INITIALIZER
       address:

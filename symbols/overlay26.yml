@@ -92,7 +92,7 @@ overlay26:
       description: |-
         Use unknown.
         
-        No params. 
+        No params.
   data:
     - name: OV26_STATIC_INITIALIZER
       address:

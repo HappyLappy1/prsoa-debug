@@ -88,7 +88,7 @@ overlay20:
       description: |-
         Use unknown.
         
-        No params. 
+        No params.
   data:
     - name: OV20_STATIC_INITIALIZER
       address:

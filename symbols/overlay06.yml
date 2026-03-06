@@ -100,7 +100,7 @@ overlay6:
       description: |-
         Use unknown.
         
-        No params. 
+        No params.
   data:
     - name: OV6_STATIC_INITIALIZER
       address:

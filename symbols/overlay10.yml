@@ -75,7 +75,7 @@ overlay10:
       description: |-
         Use unknown.
         
-        No params. 
+        No params.
   data:
     - name: OV10_STATIC_INITIALIZER
       address:

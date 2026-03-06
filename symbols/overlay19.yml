@@ -269,7 +269,7 @@ overlay19:
       description: |-
         Use unknown.
         
-        No params. 
+        No params.
   data:
     - name: OV19_STATIC_INITIALIZER
       address:

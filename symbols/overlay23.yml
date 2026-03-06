@@ -222,7 +222,7 @@ overlay23:
       description: |-
         Use unknown.
         
-        No params. 
+        No params.
   data:
     - name: OV23_STATIC_INITIALIZER
       address:
