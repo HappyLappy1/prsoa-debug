@@ -11,3 +11,4 @@ void UNK_FUN_overlay_06__0211d884(int32_t param_1);
 undefined4 UNK_FUN_overlay_06__0211d89c(int32_t param_1);
 void UNK_FUN_overlay_06__0211dbd0(int32_t param_1);
 undefined4 UNK_FUN_overlay_06__0211dc00(void);
+void thunk_UNK_FUN_02007d98(void);
