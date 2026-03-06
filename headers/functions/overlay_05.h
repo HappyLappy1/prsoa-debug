@@ -1,3 +1,6 @@
+#ifndef HEADERS_FUNCTIONS_OVERLAY05_H_
+#define HEADERS_FUNCTIONS_OVERLAY05_H_
+
 undefined4* unk_fun_overlay_05_0211c9e0(undefined4* param_1, undefined4 param_2);
 undefined4 unk_fun_overlay_05_0211ca18(undefined4 param_1);
 undefined4 unk_fun_overlay_05_0211ca2c(undefined4 param_1);
@@ -88,3 +91,4 @@ void unk_fun_overlay_05_02120200(int32_t param_1);
 void unk_fun_overlay_05_02120240(void);
 void unk_fun_overlay_05_02120244(void);
 undefined* unk_fun_overlay_05_02120248(int32_t param_1, int32_t param_2);
+#endif

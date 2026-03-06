@@ -1,3 +1,6 @@
+#ifndef HEADERS_FUNCTIONS_OVERLAY28_H_
+#define HEADERS_FUNCTIONS_OVERLAY28_H_
+
 undefined4 unk_fun_overlay_29_0211c9e0(void);
 void unk_fun_overlay_29_0211c9e8(void);
 void unk_fun_overlay_29_0211c9ec(void);
@@ -7,3 +10,4 @@ void unk_fun_overlay_29_0211cc44(undefined4 param_1, undefined4 param_2, undefin
 undefined4 unk_fun_overlay_29_0211cc90(undefined4 param_1);
 undefined4 unk_fun_overlay_29_0211ccac(void);
 undefined4 unk_fun_overlay_29_0211ccb4(undefined4 param_1);
+#endif

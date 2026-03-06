@@ -1,3 +1,6 @@
+#ifndef HEADERS_FUNCTIONS_OVERLAY00_H_
+#define HEADERS_FUNCTIONS_OVERLAY00_H_
+
 undefined4* unk_fun_overlay_00_0211c9e0(undefined4* param_1, int32_t param_2);
 undefined4* unk_fun_overlay_00_0211cb28(undefined4* param_1);
 void unk_fun_overlay_00_0211cb88(void);
@@ -2155,3 +2158,4 @@ void thunk_unk_fun_0203efe4(void);
 void thunk_unk_fun_0203f034(void);
 void thunk_unk_fun_020579d0(void);
 void thunk_unk_fun_02057d50(void);
+#endif
