@@ -13,14 +13,14 @@ overlay1:
     JP: 0x25D40
   description: Unknown.
   functions:
-    - name: thunk_unk_fun_020120b0
+    - name: thunk_unk_fun_overlay_01_020120b0
       address:
         NA: 0x2127280
       description: |-
         Use unknown.
         
         No params.
-    - name: thunk_unk_fun_020121f4
+    - name: thunk_unk_fun_overlay_01_020121f4
       address:
         NA: 0x212e48c
       description: |-

@@ -104,13 +104,6 @@ overlay0:
         Use unknown.
         
         r0: int32_t
-    - name: unk_fun_0211c9e0
-      address:
-        NA: 0x211C9E0
-      description: |-
-        Use unknown.
-        
-        r0: int32_t
     - name: unk_fun_0211ca50
       address:
         NA: 0x211CA50
@@ -127,35 +120,35 @@ overlay0:
         r0: uint32_t
         r1: uint32_t
         r2: uint32_t pointer
-    - name: thunk_unk_fun_02007cc4
+    - name: thunk_unk_fun_overlay_00_02007cc4
       address:
         NA: 0x21220a0
       description: |-
         Use unknown.
         
         No params.
-    - name: thunk_unk_fun_0203efe4
+    - name: thunk_unk_fun_overlay_00_0203efe4
       address:
         NA: 0x213c654
       description: |-
         Use unknown.
         
         No params.
-    - name: thunk_unk_fun_0203f034
+    - name: thunk_unk_fun_overlay_00_0203f034
       address:
         NA: 0x213c660
       description: |-
         Use unknown.
         
         No params.
-    - name: thunk_unk_fun_020579d0
+    - name: thunk_unk_fun_overlay_00_020579d0
       address:
         NA: 0x214c900
       description: |-
         Use unknown.
         
         No params.
-    - name: thunk_unk_fun_02057d50
+    - name: thunk_unk_fun_overlay_00_02057d50
       address:
         NA: 0x214c90c
       description: |-

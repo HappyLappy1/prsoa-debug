@@ -70,5 +70,5 @@ void unk_fun_overlay_07_0211f534(int32_t param_1);
 void unk_fun_overlay_07_0211f578(int32_t param_1);
 undefined4 unk_fun_overlay_07_0211f5bc(int32_t param_1);
 uint32_t unk_fun_overlay_07_0211f604(int16_t* param_1);
-void thunk_unk_fun_02007d98(void);
+void thunk_unk_fun_overlay_07_02007d98(void);
 #endif

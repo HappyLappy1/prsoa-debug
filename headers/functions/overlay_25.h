@@ -57,5 +57,5 @@ undefined4 unk_fun_overlay_25_0211f840(int32_t* param_1);
 undefined4 unk_fun_overlay_25_0211f890(int32_t* param_1);
 undefined4 unk_fun_overlay_25_0211fa20(int32_t* param_1);
 undefined4 unk_fun_overlay_25_0211fa54(int32_t param_1);
-void thunk_unk_fun_02007d98(void);
+void thunk_unk_fun_overlay_25_02007d98(void);
 #endif
