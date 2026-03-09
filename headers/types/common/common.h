@@ -63,6 +63,20 @@ struct ranger_core_data {
 ASSERT_SIZE(struct ranger_core_data, 48);
 
 
+// Individual entry in the quest table
+struct quest_table_entry { 
+    int8_t is_available : 1; // bit 0
+    int8_t is_cleared : 1; // bit 1
+    int8_t unk_bit_2 : 1;
+    int8_t unk_bit_3 : 1;
+    int8_t name_visible : 1; // bit 4
+    int8_t unk_bit_5 : 1;
+    int8_t unk_bit_6 : 1;
+    int8_t unk_bit_7 : 1;
+};
+
+ASSERT_SIZE(struct quest_table_entry, 1);
+
 // Tracks relevant mission and quest data 
 struct mission_quest_data {
     bool has_active_mission;
@@ -96,21 +110,6 @@ struct mission_quest_data {
 };
 
 ASSERT_SIZE(struct mission_quest_data, 92);
-
-
-// Individual entry in the quest table
-struct quest_table_entry { 
-    int8_t is_available : 1; // bit 0
-    int8_t is_cleared : 1; // bit 1
-    int8_t unk_bit_2: 1;
-    int8_t unk_bit_3: 1;
-    int8_t name_visible: 1; // bit 4
-    int8_t unk_bit_5: 1;
-    int8_t unk_bit_6: 1;
-    int8_t unk_bit_7: 1;
-};
-
-ASSERT_SIZE(struct quest_table_entry, 1);
 
 
 // Data type for befriended pokemon
