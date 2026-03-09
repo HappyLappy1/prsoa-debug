@@ -46,56 +46,50 @@ enum os_intr_mode {
 };
 
 enum game_state {
-    STATE_UNK_0xFFFFFFFF=-1,
-    STATE_IN_GAME=0,
-    STATE_IN_BATTLE=1,
-    STATE_UNK_0x2=2,
-    STATE_TITLE_SCREEN=3,
-    STATE_UNK_0x4=4,
-    STATE_STYLER_STATUS_MENU=5,
-    STATE_OPTIONS_MENU=6,
-    STATE_RELEASE_MENU=7,
-    STATE_MISSIONS_SCREEN=8,
-    STATE_UNK_0x9=9,
-    STATE_UNK_0xA=10,
-    STATE_RANGER_NET=11,
-    STATE_UNK_0xC=12,
-    STATE_UNK_0xD=13,
-    STATE_UNK_0xE=14,
-    STATE_VIEWING_BROWSER=15,
-    STATE_READING_GLOSSERY=16,
-    STATE_UNK_0x11=17,
-    STATE_UNK_0x12=18,
-    STATE_UNK_0x13=19,
-    STATE_UNK_0x14=20,
-    STATE_UNK_0x15=21,
-    STATE_UNK_0x16=22,
-    STATE_UNK_0x17=23,
-    STATE_UNK_0x18=24,
-    STATE_UNK_0x19=25,
-    STATE_UNK_0x1A=26,
-    STATE_IN_QUESTS=27,
-    STATE_VIEWING_MAP=28
+    STATE_UNK_0xFFFFFFFF = -1,
+    STATE_IN_GAME = 0,
+    STATE_IN_BATTLE = 1,
+    STATE_UNK_0x2 = 2,
+    STATE_TITLE_SCREEN = 3,
+    STATE_UNK_0x4 = 4,
+    STATE_STYLER_STATUS_MENU = 5,
+    STATE_OPTIONS_MENU = 6,
+    STATE_RELEASE_MENU = 7,
+    STATE_MISSIONS_SCREEN = 8,
+    STATE_UNK_0x9 = 9,
+    STATE_UNK_0xA = 10,
+    STATE_RANGER_NET = 11,
+    STATE_UNK_0xC = 12,
+    STATE_UNK_0xD = 13,
+    STATE_UNK_0xE = 14,
+    STATE_VIEWING_BROWSER = 15,
+    STATE_READING_GLOSSERY = 16,
+    STATE_UNK_0x11 = 17,
+    STATE_UNK_0x12 = 18,
+    STATE_UNK_0x13 = 19,
+    STATE_UNK_0x14 = 20,
+    STATE_UNK_0x15 = 21,
+    STATE_UNK_0x16 = 22,
+    STATE_UNK_0x17 = 23,
+    STATE_UNK_0x18 = 24,
+    STATE_UNK_0x19 = 25,
+    STATE_UNK_0x1A = 26,
+    STATE_IN_QUESTS = 27,
+    STATE_VIEWING_MAP = 28
 };
-
 
 enum battle_result {
-    RESULT_UNK_0x0=0,
-    RESULT_GAME_OVER_BS=1,
-    RESULT_UNK_0x2=2,
-    RESULT_UNK_0x3=3,
-    RESULT_UNK_0x4=4,
-    RESULT_LOST_BATTLE=5,
-    RESULT_UNK_0x6=6,
-    RESULT_UNK_0x7=7
+    RESULT_UNK_0x0 = 0,
+    RESULT_GAME_OVER_BS = 1,
+    RESULT_UNK_0x2 = 2,
+    RESULT_UNK_0x3 = 3,
+    RESULT_UNK_0x4 = 4,
+    RESULT_LOST_BATTLE = 5,
+    RESULT_UNK_0x6 = 6,
+    RESULT_UNK_0x7 = 7
 };
 
-enum capture_rank {
-    RANK_S = 0b00,
-    RANK_A = 0b01,
-    RANK_B = 0b10,
-    RANK_C = 0b11
-};
+enum capture_rank { RANK_S = 0b00, RANK_A = 0b01, RANK_B = 0b10, RANK_C = 0b11 };
 
 enum species_status {
     STATUS_NOT_SEEN = 0,
@@ -120,7 +114,7 @@ enum room_id {
     KINCAIDS_LAIR = 0xD,
     TRAINING_ROOM = 0xE,
     ASCENSION_SQUARE_1 = 0xF, // Cargo Ship Crash
-    RANGER_SCHOOL = 0x10, // Bell Tower - DLC Rescue Riolu
+    RANGER_SCHOOL = 0x10,     // Bell Tower - DLC Rescue Riolu
     SCHOOL_ROAD = 0x11,
     SCHOOL_ROAD_1 = 0x12,
     VIENTOWN = 0x13,
@@ -140,8 +134,8 @@ enum room_id {
     NABIKI_BEACH_2 = 0x21, // DLC - Manaphy Egg
     NABIKI_BEACH_3 = 0x22,
     NABIKI_BEACH_4 = 0x23, // DLC - Palkia
-    MARINE_CAVE = 0x24, // Mission 3 only?
-    MARINE_CAVE_1 = 0x25, // Mission 3 only?
+    MARINE_CAVE = 0x24,    // Mission 3 only?
+    MARINE_CAVE_1 = 0x25,  // Mission 3 only?
     MARINE_CAVE_2 = 0x26,
     MARINE_CAVE_3 = 0x27,
     CHICOLE_PATH = 0x28,
@@ -156,7 +150,7 @@ enum room_id {
     THEIR_HOME_2 = 0x31, // Dialga DLC
     VIENTOWN_2 = 0x32,
     THEIR_HOME_3 = 0x33, // Dialga DLC
-    VIEN_FOREST = 0x34, // Burning or not?
+    VIEN_FOREST = 0x34,  // Burning or not?
     VIEN_FOREST_1 = 0x35,
     VIEN_FOREST_2 = 0x36,
     VIEN_FOREST_3 = 0x37,
@@ -498,10 +492,6 @@ ENUM_16_BIT(room_id);
 #pragma pack(pop)
 
 // Nep please confirm this looks accurate!
-enum glossary_table_entry {
-    GLOSS_LOCKED = 0b00,
-    GLOSS_UNLOCKED = 0b01,
-    GLOSS_READ = 0b10
-};
+enum glossary_table_entry { GLOSS_LOCKED = 0b00, GLOSS_UNLOCKED = 0b01, GLOSS_READ = 0b10 };
 
 #endif

@@ -62,11 +62,10 @@ struct ranger_core_data {
 
 ASSERT_SIZE(struct ranger_core_data, 48);
 
-
 // Individual entry in the quest table
-struct quest_table_entry { 
+struct quest_table_entry {
     int8_t is_available : 1; // bit 0
-    int8_t is_cleared : 1; // bit 1
+    int8_t is_cleared : 1;   // bit 1
     int8_t unk_bit_2 : 1;
     int8_t unk_bit_3 : 1;
     int8_t name_visible : 1; // bit 4
@@ -77,17 +76,17 @@ struct quest_table_entry {
 
 ASSERT_SIZE(struct quest_table_entry, 1);
 
-// Tracks relevant mission and quest data 
+// Tracks relevant mission and quest data
 struct mission_quest_data {
     bool has_active_mission;
     bool has_active_quest;
     int8_t active_mission_id; // Eventually make this an enum
-    int8_t active_quest_id; // Eventually make this an enum
+    int8_t active_quest_id;   // Eventually make this an enum
     int8_t num_missions_cleared;
     undefined field5_0x5;
     undefined field6_0x6;
     undefined field7_0x7;
-    int chapter_num; 
+    int chapter_num;
     undefined field9_0xc;
     undefined field10_0xd;
     undefined field11_0xe;
@@ -111,12 +110,11 @@ struct mission_quest_data {
 
 ASSERT_SIZE(struct mission_quest_data, 92);
 
-
 // Data type for befriended pokemon
 struct pokemon_data {
-    int16_t form_id; // NOT natdex number! Will be an enum at some point!
+    int16_t form_id;               // NOT natdex number! Will be an enum at some point!
     struct room_id_16 room_caught; // Used to determine if a pokemon was already caught here.
-    int16_t room_caught_index; // Index of this pokemon in room_caught's available pokemon.
+    int16_t room_caught_index;     // Index of this pokemon in room_caught's available pokemon.
     undefined field5_0x6;
     undefined field6_0x7;
     undefined field7_0x8; // Seems to be 00-05.
@@ -139,7 +137,6 @@ struct pokemon_data {
 };
 
 ASSERT_SIZE(struct pokemon_data, 24);
-
 
 // Statistics on seend and befriended pokemon.
 struct ranger_pokedex {
