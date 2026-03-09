@@ -59,6 +59,7 @@ struct ranger_core_data {
     int32_t current_styler_exp;
     int32_t current_player_exp;
 };
+
 ASSERT_SIZE(struct ranger_core_data, 48);
 
 
