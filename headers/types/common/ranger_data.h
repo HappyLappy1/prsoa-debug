@@ -34361,7 +34361,7 @@ struct ranger_data {
     undefined field34357_0x8b42;
     undefined field34358_0x8b43;
     char string_buffer[32];
-    enum battle_result battle_result;
+    struct battle_result_8 battle_result;
     undefined field34361_0x8b65;
     undefined field34362_0x8b66;
     undefined field34363_0x8b67;
