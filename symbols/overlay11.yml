@@ -117,14 +117,14 @@ overlay11:
         r0: int32_t 
     - name: thunk_unk_fun_overlay_11_0211d02c
       address:
-        NA: 0x0211D02C
+        NA: 0x0211CF04
       description: |-
         Use unknown.
         
         r0: int32_t 
     - name: thunk_unk_fun_overlay_11_0211d8c4
       address:
-        NA: 0x0211D8C4
+        NA: 0x0211CF10
       description: |-
         Use unknown.
         
@@ -278,7 +278,7 @@ overlay11:
         r0: int32_t 
     - name: thunk_unk_fun_overlay_11_0211e1e8
       address:
-        NA: 0x0211E1E8
+        NA: 0x0211E1DC
       description: |-
         Use unknown.
         
@@ -2106,14 +2106,14 @@ overlay11:
         No params. 
     - name: thunk_unk_fun_overlay_11_02126e90
       address:
-        NA: 0x02126E90
+        NA: 0x02126ea0
       description: |-
         Use unknown.
         
         r0: int32_t
     - name: thunk_unk_fun_overlay_11_02126e90
       address:
-        NA: 0x02126E90
+        NA: 0x02126eac
       description: |-
         Use unknown.
         
@@ -2473,7 +2473,7 @@ overlay11:
         r3: undefined4 
     - name: thunk_unk_fun_overlay_11_02127904
       address:
-        NA: 0x02127904
+        NA: 0x02128214
       description: |-
         Use unknown.
         
@@ -2695,7 +2695,7 @@ overlay11:
         r3: undefined4 
     - name: thunk_unk_fun_overlay_11_02128b40
       address:
-        NA: 0x02128B40
+        NA: 0x02128C08
       description: |-
         Use unknown.
         
@@ -6511,11 +6511,11 @@ overlay11:
         r0: undefined4 
     - name: thunk_unk_fun_overlay_11_0215a0b0
       address:
-        NA: 0x0215A0B0
+        NA: 0x021472AC
       description: |-
         Use unknown.
         
-        r0: void thunk_unk_fun_overlay_11_0215a0b0(void);
+        r0: void
     - name: unk_fun_overlay_11_021472b8
       address:
         NA: 0x021472B8
@@ -8104,7 +8104,7 @@ overlay11:
         No params. 
     - name: thunk_unk_fun_overlay_11_021550d4
       address:
-        NA: 0x021550D4
+        NA: 0x02154B88
       description: |-
         Use unknown.
         
@@ -9907,7 +9907,7 @@ overlay11:
         r1: undefined4 
     - name: thunk_unk_fun_overlay_11_0215dafc
       address:
-        NA: 0x0215DAFC
+        NA: 0x0215DAF0
       description: |-
         Use unknown.
         
@@ -10685,7 +10685,7 @@ overlay11:
         r3: undefined4 
     - name: thunk_unk_fun_overlay_11_0215f4c8
       address:
-        NA: 0x0215F4C8
+        NA: 0x021623BC
       description: |-
         Use unknown.
         
@@ -10809,7 +10809,7 @@ overlay11:
         r1: undefined4 
     - name: thunk_unk_fun_overlay_11_02160ca0
       address:
-        NA: 0x02160CA0
+        NA: 0x02162864
       description: |-
         Use unknown.
         
@@ -10817,7 +10817,7 @@ overlay11:
         r1: int32_t 
     - name: thunk_unk_fun_overlay_11_02160d38
       address:
-        NA: 0x02160D38
+        NA: 0x02162870
       description: |-
         Use unknown.
         
