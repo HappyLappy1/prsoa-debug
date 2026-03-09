@@ -2106,18 +2106,13 @@ overlay11:
         No params. 
     - name: thunk_unk_fun_overlay_11_02126e90
       address:
-        NA: 0x02126ea0
+        NA: 
+          - 0x02126eac
+          - 0x02126ea0
       description: |-
         Use unknown.
         
-        r0: int32_t
-    - name: thunk_unk_fun_overlay_11_02126e90
-      address:
-        NA: 0x02126eac
-      description: |-
-        Use unknown.
-        
-        r0: int32_t
+        r0: void
     - name: unk_fun_overlay_11_02126eb8
       address:
         NA: 0x02126EB8

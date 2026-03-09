@@ -272,7 +272,6 @@ void unk_fun_overlay_11_02126e68(undefined4 param_1);
 void unk_fun_overlay_11_02126e7c(undefined4 param_1);
 int32_t unk_fun_overlay_11_02126e90(void);
 int32_t thunk_unk_fun_overlay_11_02126e90(void);
-int32_t thunk_unk_fun_overlay_11_02126e90(void);
 void unk_fun_overlay_11_02126eb8(void);
 int32_t unk_fun_overlay_11_02126ed0(void);
 void unk_fun_overlay_11_02126ee0(void);
