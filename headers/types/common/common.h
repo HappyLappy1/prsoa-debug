@@ -1349,7 +1349,7 @@ struct ranger_glossary {
     enum glossary_table_entry haruba_village_entry : 2;
     enum glossary_table_entry hippowdon_temple_entry : 2;
     enum glossary_table_entry altru_tower_entry : 2;
-    enum undefined field_0x28 : 6;
+    undefined field_0x28 : 6;
     undefined field1_0x29;
     undefined field2_0x2a;
     undefined field3_0x2b;
