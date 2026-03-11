@@ -6140,11 +6140,11 @@ overlay0:
         r1: undefined4 
         r2: undefined4 
         r3: undefined4
-    - name: get_styler_level
+    - name: GetStylerLevel
       address:
         NA: 0x214C0C0
       description: |-
-        [MANUAL DESCRIPTION]
+        Retrieves the current player styler level.
         
         No params.
     - name: unk_fun_overlay_00_0214c0dc
@@ -6794,242 +6794,242 @@ overlay0:
         Use unknown.
         
         r0: undefined4
-    - name: get_partner_1_status
+    - name: GetPartner1Status
       address:
         NA: 0x214D814
       description: |-
-        [MANUAL DESCRIPTION]
+        Returns true if partner 1 is unlocked, and false otherwise.
         
         No params.
-    - name: set_partner_1_status
+    - name: SetPartner1Status
       address:
         NA: 0x214D830
       description: |-
-        [MANUAL DESCRIPTION]
+        Assigns the status of partner 1 to "Met" or "Not Met".
         
         r0: bool
-    - name: get_partner_2_status
+    - name: GetPartner2Status
       address:
         NA: 0x214D860
       description: |-
-        [MANUAL DESCRIPTION]
+        Returns true if partner 2 is unlocked, and false otherwise.
         
         No params.
-    - name: set_partner_2_status
+    - name: SetPartner2Status
       address:
         NA: 0x214D87C
       description: |-
-        [MANUAL DESCRIPTION]
+        Assigns the status of partner 2 to "Met" or "Not Met".
         
         r0: bool
-    - name: get_partner_3_status
+    - name: GetPartner3Status
       address:
         NA: 0x214D8AC
       description: |-
-        [MANUAL DESCRIPTION]
+        Returns true if partner 3 is unlocked, and false otherwise.
         
         No params.
-    - name: set_partner_3_status
+    - name: SetPartner3Status
       address:
         NA: 0x214D8C8
       description: |-
-        [MANUAL DESCRIPTION]
+        Assigns the status of partner 3 to "Met" or "Not Met".
         
         r0: bool
-    - name: get_partner_4_status
+    - name: GetPartner4Status
       address:
         NA: 0x214D8F8
       description: |-
-        [MANUAL DESCRIPTION]
+        Returns true if partner 4 is unlocked, and false otherwise.
         
         No params.
-    - name: set_partner_4_status
+    - name: SetPartner4Status
       address:
         NA: 0x214D914
       description: |-
-        [MANUAL DESCRIPTION]
+        Assigns the status of partner 4 to "Met" or "Not Met".
         
         r0: bool
-    - name: get_partner_5_status
+    - name: GetPartner5Status
       address:
         NA: 0x214D944
       description: |-
-        [MANUAL DESCRIPTION]
+        Returns true if partner 5 is unlocked, and false otherwise.
         
         No params.
-    - name: set_partner_5_status
+    - name: SetPartner5Status
       address:
         NA: 0x214D960
       description: |-
-        [MANUAL DESCRIPTION]
+        Assigns the status of partner 5 to "Met" or "Not Met".
         
         r0: bool
-    - name: get_partner_6_status
+    - name: GetPartner6Status
       address:
         NA: 0x214D990
       description: |-
-        [MANUAL DESCRIPTION]
+        Returns true if partner 6 is unlocked, and false otherwise.
         
         No params.
-    - name: set_partner_6_status
+    - name: SetPartner6Status
       address:
         NA: 0x214D9AC
       description: |-
-        [MANUAL DESCRIPTION]
+        Assigns the status of partner 6 to "Met" or "Not Met".
         
         r0: bool
-    - name: get_partner_7_status
+    - name: GetPartner7Status
       address:
         NA: 0x214D9DC
       description: |-
-        [MANUAL DESCRIPTION]
+        Returns true if partner 7 is unlocked, and false otherwise.
         
         No params.
-    - name: set_partner_7_status
+    - name: SetPartner7Status
       address:
         NA: 0x214D9F8
       description: |-
-        [MANUAL DESCRIPTION]
+        Assigns the status of partner 7 to "Met" or "Not Met".
         
         r0: bool
-    - name: get_partner_8_status
+    - name: GetPartner8Status
       address:
         NA: 0x214DA28
       description: |-
-        [MANUAL DESCRIPTION]
+        Returns true if partner 8 is unlocked, and false otherwise.
         
         No params.
-    - name: set_partner_8_status
+    - name: SetPartner8Status
       address:
         NA: 0x214DA44
       description: |-
-        [MANUAL DESCRIPTION]
+        Assigns the status of partner 8 to "Met" or "Not Met".
         
         r0: bool
-    - name: get_partner_9_status
+    - name: GetPartner9Status
       address:
         NA: 0x214DA74
       description: |-
-        [MANUAL DESCRIPTION]
+        Returns true if partner 9 is unlocked, and false otherwise.
         
         No params.
-    - name: set_partner_9_status
+    - name: SetPartner9Status
       address:
         NA: 0x214DA90
       description: |-
-        [MANUAL DESCRIPTION]
+        Assigns the status of partner 9 to "Met" or "Not Met".
         
         r0: bool
-    - name: get_partner_10_status
+    - name: GetPartner10Status
       address:
         NA: 0x214DAC0
       description: |-
-        [MANUAL DESCRIPTION]
+        Returns true if partner 10 is unlocked, and false otherwise.
         
         No params.
-    - name: set_partner_10_status
+    - name: SetPartner10Status
       address:
         NA: 0x214DADC
       description: |-
-        [MANUAL DESCRIPTION]
+        Assigns the status of partner 10 to "Met" or "Not Met".
         
         r0: bool
-    - name: get_partner_11_status
+    - name: GetPartner11Status
       address:
         NA: 0x214DB0C
       description: |-
-        [MANUAL DESCRIPTION]
+        Returns true if partner 11 is unlocked, and false otherwise.
         
         No params.
-    - name: set_partner_11_status
+    - name: SetPartner11Status
       address:
         NA: 0x214DB28
       description: |-
-        [MANUAL DESCRIPTION]
+        Assigns the status of partner 11 to "Met" or "Not Met".
         
         r0: bool
-    - name: get_partner_12_status
+    - name: GetPartner12Status
       address:
         NA: 0x214DB58
       description: |-
-        [MANUAL DESCRIPTION]
+        Returns true if partner 12 is unlocked, and false otherwise.
         
         No params.
-    - name: set_partner_12_status
+    - name: SetPartner12Status
       address:
         NA: 0x214DB74
       description: |-
-        [MANUAL DESCRIPTION]
+        Assigns the status of partner 12 to "Met" or "Not Met".
         
         r0: bool
-    - name: get_partner_13_status
+    - name: GetPartner13Status
       address:
         NA: 0x214DBA4
       description: |-
-        [MANUAL DESCRIPTION]
+        Returns true if partner 13 is unlocked, and false otherwise.
         
         No params.
-    - name: set_partner_13_status
+    - name: SetPartner13Status
       address:
         NA: 0x214DBC0
       description: |-
-        [MANUAL DESCRIPTION]
+        Assigns the status of partner 13 to "Met" or "Not Met".
         
         r0: bool
-    - name: get_partner_14_status
+    - name: GetPartner14Status
       address:
         NA: 0x214DBF0
       description: |-
-        [MANUAL DESCRIPTION]
+        Returns true if partner 14 is unlocked, and false otherwise.
         
         No params.
-    - name: set_partner_14_status
+    - name: SetPartner14Status
       address:
         NA: 0x214DC0C
       description: |-
-        [MANUAL DESCRIPTION]
+        Assigns the status of partner 14 to "Met" or "Not Met".
         
         r0: bool
-    - name: get_partner_15_status
+    - name: GetPartner15Status
       address:
         NA: 0x214DC3C
       description: |-
-        [MANUAL DESCRIPTION]
+        Returns true if partner 15 is unlocked, and false otherwise.
         
         No params.
-    - name: set_partner_15_status
+    - name: SetPartner15Status
       address:
         NA: 0x214DC58
       description: |-
-        [MANUAL DESCRIPTION]
+        Assigns the status of partner 15 to "Met" or "Not Met".
         
         r0: bool
-    - name: get_partner_16_status
+    - name: GetPartner16Status
       address:
         NA: 0x214DC88
       description: |-
-        [MANUAL DESCRIPTION]
+        Returns true if partner 16 is unlocked, and false otherwise.
         
         No params.
-    - name: set_partner_16_status
+    - name: SetPartner16Status
       address:
         NA: 0x214DCA4
       description: |-
-        [MANUAL DESCRIPTION]
+        Assigns the status of partner 16 to "Met" or "Not Met".
         
         r0: bool
-    - name: get_partner_17_status
+    - name: GetPartner17Status
       address:
         NA: 0x214DCD4
       description: |-
-        [MANUAL DESCRIPTION]
+        Returns true if partner 17 is unlocked, and false otherwise.
         
         No params.
-    - name: set_partner_17_status
+    - name: SetPartner17Status
       address:
         NA: 0x214DCF0
       description: |-
-        [MANUAL DESCRIPTION]
+        Assigns the status of partner 17 to "Met" or "Not Met".
         
         r0: bool
     - name: unk_fun_overlay_00_0214dd20
@@ -7046,18 +7046,18 @@ overlay0:
         Use unknown.
         
         No params.
-    - name: get_active_quest_id
+    - name: GetActiveQuestId
       address:
         NA: 0x214DD9C
       description: |-
-        [MANUAL DESCRIPTION]
+        Returns the index of the currently active quest.
         
         No params.
-    - name: get_active_mission_id
+    - name: GetActiveMissionId
       address:
         NA: 0x214DDAC
       description: |-
-        [MANUAL DESCRIPTION]
+        Returns the index of the currently active mission.
         
         No params.
     - name: unk_fun_overlay_00_0214ddbc
@@ -7549,81 +7549,81 @@ overlay0:
         Use unknown.
         
         No params.
-    - name: get_capture_lin_len_record_simple
+    - name: GetCaptureLinLenRecordSimple
       address:
         NA: 0x214F6E4
       description: |-
-        [MANUAL DESCRIPTION]
+        Retrieves the capture line length record from RANGER_DATA.
         
         No params.
-    - name: set_capture_line_len_record_simple
+    - name: SetCaptureLineLenRecordSimple
       address:
         NA: 0x214F708
       description: |-
-        [MANUAL DESCRIPTION]
+        Writes to the capture line length record from RANGER_DATA.
         
         r0: int32_t
-    - name: get_num_loops_record_simple
+    - name: GetNumLoopsRecordSimple
       address:
         NA: 0x214F738
       description: |-
-        [MANUAL DESCRIPTION]
+        Retrieves the num loops record from RANGER_DATA.
         
         No params.
-    - name: set_num_loops_record_simple
+    - name: SetNumLoopsRecordSimple
       address:
         NA: 0x214F748
       description: |-
-        [MANUAL DESCRIPTION]
+        Writes to the num loops record from RANGER_DATA.
         
         r0: undefined4
-    - name: get_pokemon_captured_record_simple
+    - name: GetPokemonCapturedRecordSimple
       address:
         NA: 0x214F760
       description: |-
-        [MANUAL DESCRIPTION]
+        Retrieves the pokemon captured record from RANGER_DATA.
         
         No params.
-    - name: set_pokemon_captured_record_simple
+    - name: SetPokemonCapturedRecordSimple
       address:
         NA: 0x214F770
       description: |-
-        [MANUAL DESCRIPTION]
+        Writes to the pokemon captured record from RANGER_DATA.
         
         r0: undefined2
-    - name: get_pokemon_fled_record_simple
+    - name: GetPokemonFledRecordSimple
       address:
         NA: 0x214F78C
       description: |-
-        [MANUAL DESCRIPTION]
+        Retrieves the pokemon fled record from RANGER_DATA.
         
         No params.
-    - name: set_pokemon_fled_record_simple
+    - name: SetPokemonFledRecordSimple
       address:
         NA: 0x214F79C
       description: |-
-        [MANUAL DESCRIPTION]
+        Writes to the pokemon fled record from RANGER_DATA.
         
         r0: undefined2
-    - name: get_poke_assists_used_record_simple
+    - name: GetPokeAssistsUsedRecordSimple
       address:
         NA: 0x214F7B8
       description: |-
-        [MANUAL DESCRIPTION]
+        Retrieves the poke assists used record from RANGER_DATA.
         
         No params.
-    - name: set_poke_assists_used_simple
+    - name: SetPokeAssistsUsedSimple
       address:
         NA: 0x214F7C8
       description: |-
-        [MANUAL DESCRIPTION]
+        Writes to the poke assists used record from RANGER_DATA.
         
         r0: undefined2
-    - name: get_max_play_time_seconds
+    - name: GetMaxPlayTimeSeconds
       address:
         NA: 0x214F7E4
       description: |-
-        [MANUAL DESCRIPTION]
+        Retrieves the current play time in seconds from RANGER_DATA.
         
         No params.
     - name: unk_fun_overlay_00_0214f830
