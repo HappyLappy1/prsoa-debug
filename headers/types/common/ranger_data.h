@@ -10,6 +10,7 @@ struct ranger_data {
     undefined4 room_nibble_field_1[441][4]; // This is really 441 sets of 32 nibbles!
     undefined4 room_nibble_field_2[441][4]; // This is really 441 sets of 32 nibbles!
     undefined4 room_nibble_field_3[441][4]; // This is really 441 sets of 32 nibbles!
+    undefined4 field4_0x7c38; // Related to battle result somehow...
     struct ranger_pokedex pokedex;
     struct ranger_glossary glossary;
     undefined4 field5_0x7f60;
