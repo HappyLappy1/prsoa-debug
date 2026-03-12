@@ -1350,9 +1350,11 @@ struct save_data {
     undefined unk_field_0x9470[8]; // 0x9470: Permanent home is 0x20AF5F8
     undefined unk_field_0x9478[8]; // 0x9478: Permanent home is 0x20AF60C
     int16_t ranger_net_completion_bits; // 0x9480:
+    undefined unk_field_0x9482;
+    undefined unk_field_0x9483;
 };
 
-ASSERT_SIZE(struct save_data, 38018);
+ASSERT_SIZE(struct save_data, 38020);
 
 
 struct save_file {
@@ -1368,6 +1370,6 @@ struct save_file {
     int8_t ranger_net_mission5[0x3020]; // 0x27E3E
     int8_t ranger_net_mission6[0x3020]; // 0x2AE5E
 };
-ASSERT_SIZE(struct save_file, 188030);
+ASSERT_SIZE(struct save_file, 188034);
 
 #endif
