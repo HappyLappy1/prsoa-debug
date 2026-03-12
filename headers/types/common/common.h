@@ -1352,7 +1352,7 @@ struct save_data {
     int16_t ranger_net_completion_bits; // 0x9480:
 };
 
-ASSERT_SIZE(struct main_save_data, 38018);
+ASSERT_SIZE(struct save_data, 38018);
 
 
 struct save_file {
@@ -1368,6 +1368,6 @@ struct save_file {
     int8_t ranger_net_mission5[0x3020]; // 0x27E3E
     int8_t ranger_net_mission6[0x3020]; // 0x2AE5E
 };
-ASSERT_SIZE(struct main_save_data, 188030);
+ASSERT_SIZE(struct save_file, 188030);
 
 #endif
