@@ -1310,10 +1310,11 @@ struct following_npc {
         face_angle;   // 0xA: Continuous, Right = 0x0000, Down = 0x4000, Left = 0x8000, Up = 0xC000.
     int x_coordinate; // 0xC
     int y_coordinate; // 0x10
-    char talk_script_name[32]; // 0x14: Unknown how long this actually is.
-    int16_t unk_field1_0x34;   // 0x34
-    undefined unk_field1_0x36; // 0x36
-    undefined unk_field1_0x37; // 0x37
+    char talk_script_func_name[32]; // 0x14: Unknown how long this actually is. Name of the script
+                                    // function called when NPC is tapped.
+    int16_t unk_field1_0x34;        // 0x34
+    undefined unk_field1_0x36;      // 0x36
+    undefined unk_field1_0x37;      // 0x37
 };
 
 ASSERT_SIZE(struct following_npc, 56);
