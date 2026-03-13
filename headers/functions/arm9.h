@@ -4283,6 +4283,7 @@ float _fadd(float a, float b);
 bool _dls(double a, double b);
 bool _deq(double a, double b);
 bool _fls(float a, float b);
+float _frdiv(float divisor, float dividend);
 float _fdiv(float dividend, float divisor);
 int _ffix(float f);
 float _fflt(int i);

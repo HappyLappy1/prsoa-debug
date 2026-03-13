@@ -29958,6 +29958,17 @@ arm9:
         r0: a
         r1: b
         return: a < b
+    - name: _frdiv
+      address:
+        NA: 0x2080CD8
+      description: |-
+        The same as _fdiv, but with the parameters reversed.
+        
+        This simply swaps the first and second parameters, then falls through to _fdiv.
+        
+        r0: divisor
+        r1: dividend
+        return: dividend / divisor
     - name: _fdiv
       address:
         NA: 0x2080CE4
