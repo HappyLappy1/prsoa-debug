@@ -90,7 +90,7 @@ ASSERT_SIZE(struct ranger_core_data, 48);
 
 // Data type for befriended pokemon
 struct pokemon_data {
-    int16_t form_id;               // NOT natdex number! Will be an enum at some point!
+    struct form_id_16 form;        // NOT natdex number!
     struct room_id_16 room_caught; // Used to determine if a pokemon was already caught here.
     int16_t room_caught_index;     // Index of this pokemon in room_caught's available pokemon.
     undefined field5_0x6;
@@ -1141,7 +1141,9 @@ struct ranger_records {
     int32_t targets_checked_record;
     int32_t game_saves_record;
     int32_t pokemon_rides_record;
-    int32_t partner_pokemon_data[17]; // More clarification needed on what this data is.
+    // This seems to determine the "Best Partner" Ranger Record in-game. It is unclear what exactly increments these fields.
+    // Maybe Partner Poke-Assists? None of these entries are permitted to exceed 9,999,999.
+    int32_t best_partner_pokemon_record_table[17];
     int32_t capture_line_len_record;
     int32_t num_loops_record;
     int16_t pokemon_captured_record;
@@ -1397,7 +1399,17 @@ struct settings_variables {
 
 ASSERT_SIZE(struct settings_variables, 124);
 
-// Nothing is known about quest variables at this time.
+// This struct is equivalent the the above quest_variable_table, but with definitions instead of
+// being an arbitrary table of ints.
+struct quest_variables {
+    // 0x0: Enabled when the Breeze Hill sign is repaired, disabled when starting a quest?
+    // Either this is a bitflag of some kind, or it's actually used as a subquest progression marker, and only starting a quest resets it?
+    int32_t maybe_quest_progression;
+    int32_t unk_quest_vars[10]; // 0x4: So far no use observed, but likely scratch paper to be used individually by quest.
+};
+
+ASSERT_SIZE(struct quest_variables, 44);
+
 
 #include "ranger_data.h"
 
