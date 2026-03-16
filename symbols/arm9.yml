@@ -4683,7 +4683,7 @@ arm9:
         
         r0: undefined4 
         r1: uint32_t
-    - name: ZeroMissionQuestBody
+    - name: ZeroQuestBody
       address:
         NA: 0x201135C
       description: |-
@@ -4697,7 +4697,7 @@ arm9:
         Use unknown.
         
         r0: quest pointer
-    - name: ZeroMissionQuestDataFooter
+    - name: ZeroQuestFooter
       address:
         NA: 0x2011384
       description: |-
