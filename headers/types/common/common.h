@@ -34,7 +34,7 @@ struct quest_table_entry {
 ASSERT_SIZE(struct quest_table_entry, 1);
 
 // Tracks relevant mission and quest data
-struct mission_quest_data {
+struct quest_body {
     bool has_active_mission;
     bool has_active_quest;
     int8_t active_mission_id; // Eventually make this an enum
@@ -56,8 +56,21 @@ struct mission_quest_data {
     undefined field_0x52;
     undefined field_0x53;
 };
+ASSERT_SIZE(struct quest_body, 84);
 
-ASSERT_SIZE(struct mission_quest_data, 84);
+struct quest_footer {
+    undefined* unk_pointer_1;
+    undefined* unk_pointer_2;
+};
+ASSERT_SIZE(struct quest_footer, 8);
+
+// Tracks relevant mission and quest data
+struct quest {
+    struct quest_body body;
+    struct quest_footer footer;
+};
+
+ASSERT_SIZE(struct quest, 92);
 
 // Contains critical player data, such as their gender, HP, position, and exp.
 struct ranger_core_data {
@@ -90,7 +103,7 @@ ASSERT_SIZE(struct ranger_core_data, 48);
 
 // Data type for befriended pokemon
 struct pokemon_data {
-    int16_t form_id;               // NOT natdex number! Will be an enum at some point!
+    struct form_id_16 form;        // NOT natdex number!
     struct room_id_16 room_caught; // Used to determine if a pokemon was already caught here.
     int16_t room_caught_index;     // Index of this pokemon in room_caught's available pokemon.
     undefined field5_0x6;
@@ -1141,7 +1154,10 @@ struct ranger_records {
     int32_t targets_checked_record;
     int32_t game_saves_record;
     int32_t pokemon_rides_record;
-    int32_t partner_pokemon_data[17]; // More clarification needed on what this data is.
+    // This seems to determine the "Best Partner" Ranger Record in-game. It is unclear what exactly
+    // increments these fields. Maybe Partner Poke-Assists? None of these entries are permitted to
+    // exceed 9,999,999.
+    int32_t best_partner_pokemon_record_table[17];
     int32_t capture_line_len_record;
     int32_t num_loops_record;
     int16_t pokemon_captured_record;
@@ -1397,7 +1413,25 @@ struct settings_variables {
 
 ASSERT_SIZE(struct settings_variables, 124);
 
-// Nothing is known about quest variables at this time.
+// This struct is equivalent the the above quest_variable_table, but with definitions instead of
+// being an arbitrary table of ints.
+struct quest_variables {
+    // 0x0: Enabled when the Breeze Hill sign is repaired, disabled when starting a quest?
+    // Either this is a bitflag of some kind, or it's actually used as a subquest progression
+    // marker, and only starting a quest resets it?
+    int32_t maybe_quest_progression;
+    int32_t unk_quest_vars[10]; // 0x4: So far no use observed, but likely scratch paper to be used
+                                // individually by quest.
+};
+
+ASSERT_SIZE(struct quest_variables, 44);
+
+// This is populated in an unknown way upon starting any battle.
+struct battle_init {
+    undefined unk_fields[2048];
+};
+
+ASSERT_SIZE(struct battle_init, 2048);
 
 #include "ranger_data.h"
 
@@ -1418,21 +1452,21 @@ ASSERT_SIZE(struct save_header, 28);
 struct save_data {
     struct ranger_data ranger_data_struct; // 0x0
     // Of the 30 pokemon slots, only the first 8 of each group are stored in the save file...
-    struct pokemon_data party_group_0[8];         // 0x8804
-    struct pokemon_data party_group_1[8];         // 0x88C4
-    struct pokemon_data party_group_2[8];         // 0x8984
-    struct following_npc follower_1;              // 0x8A44
-    struct following_npc follower_2;              // 0x8A7C
-    struct mission_quest_data mission_quest_data; // 0x8AB4
+    struct pokemon_data party_group_0[8]; // 0x8804
+    struct pokemon_data party_group_1[8]; // 0x88C4
+    struct pokemon_data party_group_2[8]; // 0x8984
+    struct following_npc follower_1;      // 0x8A44
+    struct following_npc follower_2;      // 0x8A7C
+    struct quest_body quest_body;         // 0x8AB4
     // Consists of event flags,
     struct settings_and_variables settings_and_variables; // 0x8B08
     undefined unk_field_0x8c04[96];                       // 0x8C04: Permanent home is 0x210C1C0
-    undefined unk_field_0x8c64[2048];                     // 0x8C64: Permanent home is 0x210C228
+    struct battle_init battle_init;                       // 0x8C64: Permanent home is 0x210C228
     undefined unk_field_0x9464[4];                        // 0x9464: Permanent home is 0x208B5C0
     undefined unk_field_0x9468[8];                        // 0x9468: Permanent home is 0x20AF5E4
     undefined unk_field_0x9470[8];                        // 0x9470: Permanent home is 0x20AF5F8
     undefined unk_field_0x9478[8];                        // 0x9478: Permanent home is 0x20AF60C
-    int16_t ranger_net_completion_bits;                   // 0x9480:
+    int16_t ranger_net_completion_bits;                   // 0x9480
     undefined unk_field_0x9482;
     undefined unk_field_0x9483;
 };
