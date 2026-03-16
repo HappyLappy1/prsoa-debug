@@ -19,7 +19,7 @@ void unk_fun_020012f0(void);
 void unk_fun_02001360(void);
 void thunk_unk_fun_02002258(void);
 void thunk_unk_fun_020022f4(void);
-void unk_fun_02001488(game_state param_1,int32_t param_2);
+void unk_fun_02001488(enum game_state param_1,int32_t param_2);
 int32_t * unk_fun_02001568(undefined4 param_1,int32_t param_2);
 void unk_fun_02001c04(int32_t param_1);
 void unk_fun_02001c20(uint16_t *param_1);
@@ -1180,7 +1180,7 @@ void unk_fun_0202a32c(int32_t *param_1,int32_t param_2,uint32_t param_3,int32_t 
 undefined4 unk_fun_0202a404(int32_t *param_1,int32_t param_2);
 void unk_fun_0202a47c(int32_t param_1);
 void unk_fun_0202a4a0(int8_t *param_1);
-void unk_fun_0202a4d8(struct battle_init_struct *param_1);
+void unk_fun_0202a4d8(struct struct struct battle_init_struct *param_1);
 int32_t unk_fun_0202a510(int32_t param_1,undefined4 param_2);
 undefined4 unk_fun_0202a528(undefined4 param_1);
 void unk_fun_0202a53c(undefined2 *param_1);
