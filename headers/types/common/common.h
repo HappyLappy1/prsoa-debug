@@ -56,7 +56,7 @@ struct mission_quest_body {
     undefined field_0x52;
     undefined field_0x53;
 };
-ASSERT_SIZE(struct mission_quest_header, 84);
+ASSERT_SIZE(struct mission_quest_body, 84);
 
 struct mission_quest_footer {
     undefined * unk_pointer_1;
