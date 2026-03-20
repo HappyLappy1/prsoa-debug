@@ -4162,6 +4162,8 @@ void unk_fun_020792c8(void);
 void unk_fun_020792ec(undefined4 param_1);
 void unk_fun_02079338(void);
 undefined4 unk_fun_02079460(void);
+// If declaring these builtins causes issues, you can disable them
+#ifndef PRSOA_NO_BUILTIN
 int32_t abs(int32_t x);
 void unk_fun_020794d4(void);
 void unk_fun_020794d8(int32_t param_1);
@@ -4195,13 +4197,15 @@ void unk_fun_0207ad48(int32_t param_1, int32_t param_2);
 int8_t* unk_fun_0207ae6c(undefined4 param_1, undefined4 param_2, int32_t param_3,
                          undefined4 param_4, undefined4 param_5, undefined4 param_6,
                          uint32_t param_7);
-int32_t unk_fun_0207b5d0(void** param_1, undefined4 param_2, char* param_3, uint32_t* param_4);
+int __vsprintf_internal_slice(slice_append_fn_t append, struct slice* str, const char* format,
+                              va_list ap);
 undefined4 unk_fun_0207bdf4(undefined4 param_1, undefined4 param_2, int32_t param_3,
                             undefined4 param_4);
-undefined4 unk_fun_0207be20(int32_t* param_1, void* param_2, size_t param_3);
+bool TryAppendToSlice(struct slice* slice, const void* data, size_t data_len);
 undefined4 unk_fun_0207be64(undefined4 param_1, undefined4 param_2, undefined4 param_3,
                             undefined4 param_4);
-void unk_fun_0207bfe4(undefined4 param_1, undefined4 param_2, undefined4 param_3);
+int __vsprintf_internal(char* str, size_t maxlen, const char* format, va_list ap);
+int vsprintf(char* str, const char* format, va_list ap);
 undefined4 unk_fun_0207c080(int32_t param_1);
 size_t strlen(const char* s);
 char* strcpy(char* dest, const char* src);
@@ -4381,5 +4385,6 @@ void unk_fun_0208f7c0(int32_t param_1, undefined4 param_2, undefined4 param_3, u
 undefined4 unk_fun_0208f854(int32_t param_1, undefined4 param_2, undefined4 param_3,
                             undefined4 param_4);
 void unk_fun_0208f8b8(int32_t param_1, int32_t param_2, uint32_t param_3, undefined4 param_4);
+#endif
 
 #endif
