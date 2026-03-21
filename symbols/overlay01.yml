@@ -39,7 +39,7 @@ overlay1:
         r0: battle_struct pointer
         r1: undefined4 
         r2: undefined4 
-        r3: undefined4 
+        r3: undefined4
     - name: BattleVerifyFleeFrameUpdate
       address:
         NA: 0x211F9D8
@@ -87,7 +87,7 @@ overlay1:
         r0: battle_struct pointer
         r1: undefined4 
         r2: undefined4 
-        r3: undefined4 
+        r3: undefined4
     - name: FightVictoryCheerFrameUpdate
       address:
         NA: 0x21208BC
@@ -102,7 +102,7 @@ overlay1:
         [MANUAL DESCRIPTION]
         
         r0: battle_struct pointer
-        r1: uint32_t 
+        r1: uint32_t
     - name: UpdateBrowserLifetimeCaughtAndMore
       address:
         NA: 0x2122DB4
@@ -112,7 +112,7 @@ overlay1:
         r0: battle_struct pointer
         r1: undefined4 
         r2: undefined4 
-        r3: undefined4 
+        r3: undefined4
     - name: function_stub_overlay_01_02123770
       address:
         NA: 0x2123770

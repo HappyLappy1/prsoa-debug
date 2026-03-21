@@ -96,19 +96,20 @@ enum game_state {
 };
 enum battle_state {
     BSTATE_BATTLE_INIT = 0,
-    BSTATE_BATTLE_GRAPHIC = 1, // Literally handles the display of the "Capture On" graphic and maybe others.
-    BSTATE_BATTLE_ACTIVE = 2, // Normal battle things. The foe wanders around, you try to catch it, etc.
-    BSTATE_UNK_0x3 = 3, 
+    BSTATE_BATTLE_GRAPHIC =
+        1, // Literally handles the display of the "Capture On" graphic and maybe others.
+    BSTATE_BATTLE_ACTIVE =
+        2, // Normal battle things. The foe wanders around, you try to catch it, etc.
+    BSTATE_UNK_0x3 = 3,
     BSTATE_VERIFY_FLEE = 4, // Would you like to flee? Yes/No
     BSTATE_VIEW_PARTY = 5,
     BSTATE_BATTLE_LOST = 6,
-    BSTATE_BATTLE_WON = 7, // Handles EXP and capture rank display.
-    BSTATE_END_BATTLE = 8, // Used for winning, losing, and fleeing to exit the battle.
+    BSTATE_BATTLE_WON = 7,          // Handles EXP and capture rank display.
+    BSTATE_END_BATTLE = 8,          // Used for winning, losing, and fleeing to exit the battle.
     BSTATE_REGISTER_IN_BROWSER = 9, // Displays the browser entry of newly caught pokemon.
-    BSTATE_CAUGHT_POKEMON = 10, // May be "caught last pokemon and playing battle victory bgm"
+    BSTATE_CAUGHT_POKEMON = 10,     // May be "caught last pokemon and playing battle victory bgm"
     BSTATE_UNK_0xB = 11
 };
-
 
 enum battle_result {
     RESULT_UNK_0x0 = 0,

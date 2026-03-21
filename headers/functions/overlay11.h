@@ -10,7 +10,7 @@ void function_stub_overlay_11_02126984(void);
 void function_stub_overlay_11_02128f18(void);
 void function_stub_overlay_11_0212d978(void);
 void function_stub_overlay_11_0213e00c(void);
-int SocketVeneer(int _domain,int _type,int _protocol);
+int SocketVeneer(int _domain, int _type, int _protocol);
 int32_t CloseVeneer(int32_t fd);
 void function_stub_overlay_11_02147dbc(void);
 void function_stub_overlay_11_021481a0(void);

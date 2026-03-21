@@ -89,7 +89,8 @@ struct ranger_core_data {
     undefined field30_0x22;
     undefined field31_0x23;
     int16_t player_face_direction;
-    undefined field34_0x26; // Seems to mess with collision and following pokemon pathing when poked...
+    undefined
+        field34_0x26; // Seems to mess with collision and following pokemon pathing when poked...
     undefined field35_0x27;
     int32_t current_styler_exp;
     int32_t current_player_exp;
@@ -102,16 +103,17 @@ struct pokemon_data {
     struct form_id_16 form;        // NOT natdex number!
     struct room_id_16 room_caught; // Used to determine if a pokemon was already caught here.
     int16_t room_caught_index;     // Index of this pokemon in room_caught's available pokemon.
-    undefined field5_0x6; // Seems to be padding
+    undefined field5_0x6;          // Seems to be padding
     undefined field6_0x7;
-    // Bitfield of data that affects whether the pokemon exists, can use poke-assists, can be released, etc.
-    // Requires more research to fully understand... 
+    // Bitfield of data that affects whether the pokemon exists, can use poke-assists, can be
+    // released, etc. Requires more research to fully understand...
     undefined4 slot_status_fields;
     // These last 12 bytes change rapidly, and are likely related to pokemon motion.
     int x_coordinate;
     int y_coordinate;
     int16_t face_angle;
-    undefined field21_0x16; // Not padding. When poked, these do strange things to the pokemon's pathing...
+    undefined field21_0x16; // Not padding. When poked, these do strange things to the pokemon's
+                            // pathing...
     undefined field22_0x17;
 };
 
@@ -1142,8 +1144,8 @@ struct ranger_records {
     int32_t targets_checked_record;
     int32_t game_saves_record;
     int32_t pokemon_rides_record;
-    // This seems to determine the obscure "Best Partner" Ranger Record in-game. It increments by one
-    // at the end of each battle where the partner used a poke-assist. Cannot exceed 9,999,999.
+    // This seems to determine the obscure "Best Partner" Ranger Record in-game. It increments by
+    // one at the end of each battle where the partner used a poke-assist. Cannot exceed 9,999,999.
     int32_t best_partner_record_table[17];
     int32_t capture_line_len_record;
     int32_t num_loops_record;
@@ -1421,7 +1423,7 @@ struct battle_init {
 ASSERT_SIZE(struct battle_init, 2048);
 
 struct battle_combatants {
-    int *unk_struct_ptr_0x0;
+    int* unk_struct_ptr_0x0;
     int8_t current_hp;
     int8_t styler_level;
     bool partner_assist_unlocked;
@@ -1438,13 +1440,13 @@ struct battle_combatants {
     int16_t enemy_form_ids[4];
     int8_t unk_enemy_data_0x38[4];
     int8_t unk_enemy_data_0x3C[4];
-    int8_t num_enemy_pokemon; // Created by Rename Structure Field action
+    int8_t num_enemy_pokemon;      // Created by Rename Structure Field action
     int8_t unk_enemy_data_0x41[8]; // Might be related to enemy catch status?
     int8_t arena_graphic_id;
     int8_t weather_graphic_id;
     int8_t sequence_script_id; // runs "data/script/battle/sequence/s%03d.fsb" with this id.
     int8_t tutorial_script_id; // runs "data/script/battle/tutorial/s%03d.fsb" with this id.
-    int8_t start_script_id; // runs "data/script/battle/start/s%03d.fsb" with this id.
+    int8_t start_script_id;    // runs "data/script/battle/start/s%03d.fsb" with this id.
     int8_t bgm_id;
     bool can_view_party;
     bool can_flee;
@@ -1454,7 +1456,7 @@ struct battle_combatants {
     int8_t field30_0x54;
     undefined field31_0x55;
     int16_t gender_and_uniform; // bit 0: ranger_gender. bit 1+ styler_type, aka uniform
-    int8_t field_alloc_bits; // bit 0: , bit 1: , bit 2: field_0x56.
+    int8_t field_alloc_bits;    // bit 0: , bit 1: , bit 2: field_0x56.
     undefined field34_0x59;
     undefined field35_0x5a;
     undefined field36_0x5b;
@@ -1463,20 +1465,19 @@ struct battle_combatants {
 
 ASSERT_SIZE(struct battle_combatants, 92);
 
-
 struct battle_struct {
-    undefined4 *function_ptr_0x0;
-    undefined4 *unk_pointer_0x4;
+    undefined4* function_ptr_0x0;
+    undefined4* unk_pointer_0x4;
     int16_t field2_0x8;
     int16_t field3_0xa;
     unsigned int capture_rank_bit_field;
-    int *field5_0x10;
+    int* field5_0x10;
     undefined field6_0x14;
     undefined field7_0x15;
     undefined field8_0x16;
     undefined field9_0x17;
     int field10_0x18;
-    struct battle_combatants *battle_combatants_ptr;
+    struct battle_combatants* battle_combatants_ptr;
     int current_battle_state;
     int previous_battle_state;
     int time_in_battle_frames;
@@ -1514,30 +1515,30 @@ struct battle_struct {
     bool poke_assists_used[8];
     undefined field47_0xa2;
     undefined field48_0xa3;
-    int8_t *poke_assists_used_ptrs[8];
-    int *unk_struct_size_0x3C_ptrs[3]; // May live at +0x2468 from the start of this struct!
-    int8_t *field51_0xd0;
+    int8_t* poke_assists_used_ptrs[8];
+    int* unk_struct_size_0x3C_ptrs[3]; // May live at +0x2468 from the start of this struct!
+    int8_t* field51_0xd0;
     int field52_0xd4;
-    int *field53_0xd8;
-    undefined4 *mystery_struct_ptrs[8];
+    int* field53_0xd8;
+    undefined4* mystery_struct_ptrs[8];
     int field55_0xfc[4];
     int field56_0x10c[8];
-    int *field57_0x12c;
-    int *field58_0x130[96]; // Mostly size 0x7DC, but the first few aren't...
-    int *field59_0x2b0[18];
-    int *field60_0x2f8[32]; // Mostly size 0x7DC, but the first few aren't...
+    int* field57_0x12c;
+    int* field58_0x130[96]; // Mostly size 0x7DC, but the first few aren't...
+    int* field59_0x2b0[18];
+    int* field60_0x2f8[32]; // Mostly size 0x7DC, but the first few aren't...
     int field61_0x378[3];
-    int *partner_something_ptr;
-    int *recruit_something_ptrs[8];
-    int *unk_struct_size_0xC4_ptrs[512]; // May live at +0x4B6C from the start of this struct!
+    int* partner_something_ptr;
+    int* recruit_something_ptrs[8];
+    int* unk_struct_size_0xC4_ptrs[512]; // May live at +0x4B6C from the start of this struct!
     int field65_0xba8;
     undefined4 field66_0xbac;
-    int *field67_0xbb0;
-    int *field68_0xbb4;
+    int* field67_0xbb0;
+    int* field68_0xbb4;
     int field69_0xbb8;
-    int *field70_0xbbc;
+    int* field70_0xbbc;
     int field71_0xbc0;
-    int *unk_struct_size_0x24_ptrs[8];
+    int* unk_struct_size_0x24_ptrs[8];
     undefined field73_0xbe4;
     undefined field74_0xbe5;
     undefined field75_0xbe6;
@@ -1554,10 +1555,10 @@ struct battle_struct {
     int field86_0xc0c;
     undefined4* battle_graphic_struct_ptr;
     int field88_0xc14;
-    int *unk_struct_size_0x18_ptrs[3];
+    int* unk_struct_size_0x18_ptrs[3];
     int field90_0xc24;
     int field91_0xc28;
-    int *field92_0xc2c;
+    int* field92_0xc2c;
     int field93_0xc30;
     int field94_0xc34;
     int field95_0xc38;
@@ -1566,8 +1567,8 @@ struct battle_struct {
     undefined field98_0xc3e;
     undefined field99_0xc3f;
     int field100_0xc40;
-    int *field101_0xc44;
-    int *field102_0xc48;
+    int* field101_0xc44;
+    int* field102_0xc48;
     undefined field103_0xc4c;
     undefined field104_0xc4d;
     undefined field105_0xc4e;
@@ -2113,7 +2114,7 @@ struct battle_struct {
     undefined field645_0xe6d;
     undefined field646_0xe6e;
     undefined field647_0xe6f;
-    int *field648_0xe70;
+    int* field648_0xe70;
     int field649_0xe74;
     undefined field650_0xe78;
     undefined field651_0xe79;
@@ -2660,7 +2661,7 @@ struct battle_struct {
     undefined field1192_0x1099;
     undefined field1193_0x109a;
     undefined field1194_0x109b;
-    int *field1195_0x109c;
+    int* field1195_0x109c;
     int field1196_0x10a0;
     undefined field1197_0x10a4;
     undefined field1198_0x10a5;
@@ -3219,7 +3220,6 @@ struct battle_struct {
 };
 
 ASSERT_SIZE(struct battle_struct, 4840);
-
 
 #include "ranger_data.h"
 
