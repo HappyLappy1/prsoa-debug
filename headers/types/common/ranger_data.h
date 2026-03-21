@@ -81,7 +81,7 @@ struct ranger_data {
     undefined1 field38_0x87ea[22];
     undefined1 field33832_0x8800[2];
     undefined field33834_0x8802;
-    undefined field33835_0x8803;
+    bool can_partner_poke_assist;
 };
 
 ASSERT_SIZE(struct ranger_data, 34820);

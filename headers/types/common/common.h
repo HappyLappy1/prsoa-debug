@@ -79,10 +79,7 @@ struct ranger_core_data {
     int8_t max_hp;
     int8_t styler_rank : 4;
     enum styler_type styler_type : 4;
-    undefined field4_0x4;
-    undefined field5_0x5;
-    undefined field6_0x6;
-    undefined field7_0x7;
+    int32_t partner_assist_gauge; // Maximum varies by partner.
     undefined field8_0x8;
     int8_t partner_pokemon_moods[17]; // 0x0 normal, 0x1 happy, 0x2 very happy?
     struct room_id_16 room;
@@ -91,9 +88,8 @@ struct ranger_core_data {
     undefined field29_0x21;
     undefined field30_0x22;
     undefined field31_0x23;
-    undefined field32_0x24;
-    undefined field33_0x25;
-    undefined field34_0x26;
+    int16_t player_face_direction;
+    undefined field34_0x26; // Seems to mess with collision and following pokemon pathing when poked...
     undefined field35_0x27;
     int32_t current_styler_exp;
     int32_t current_player_exp;
@@ -106,24 +102,16 @@ struct pokemon_data {
     struct form_id_16 form;        // NOT natdex number!
     struct room_id_16 room_caught; // Used to determine if a pokemon was already caught here.
     int16_t room_caught_index;     // Index of this pokemon in room_caught's available pokemon.
-    undefined field5_0x6;
+    undefined field5_0x6; // Seems to be padding
     undefined field6_0x7;
-    undefined field7_0x8; // Seems to be 00-05.
-    undefined field8_0x9;
-    undefined field9_0xa;
-    undefined field10_0xb;
+    // Bitfield of data that affects whether the pokemon exists, can use poke-assists, can be released, etc.
+    // Requires more research to fully understand... 
+    undefined4 slot_status_fields;
     // These last 12 bytes change rapidly, and are likely related to pokemon motion.
-    undefined field11_0xc;
-    undefined field12_0xd;
-    undefined field13_0xe;
-    undefined field14_0xf;
-    undefined field15_0x10;
-    undefined field16_0x11;
-    undefined field17_0x12;
-    undefined field18_0x13;
-    undefined field19_0x14;
-    undefined field20_0x15;
-    undefined field21_0x16;
+    int x_coordinate;
+    int y_coordinate;
+    int16_t face_angle;
+    undefined field21_0x16; // Not padding. When poked, these do strange things to the pokemon's pathing...
     undefined field22_0x17;
 };
 
@@ -1154,10 +1142,9 @@ struct ranger_records {
     int32_t targets_checked_record;
     int32_t game_saves_record;
     int32_t pokemon_rides_record;
-    // This seems to determine the "Best Partner" Ranger Record in-game. It is unclear what exactly
-    // increments these fields. Maybe Partner Poke-Assists? None of these entries are permitted to
-    // exceed 9,999,999.
-    int32_t best_partner_pokemon_record_table[17];
+    // This seems to determine the obscure "Best Partner" Ranger Record in-game. It increments by one
+    // at the end of each battle where the partner used a poke-assist. Cannot exceed 9,999,999.
+    int32_t best_partner_record_table[17];
     int32_t capture_line_len_record;
     int32_t num_loops_record;
     int16_t pokemon_captured_record;
