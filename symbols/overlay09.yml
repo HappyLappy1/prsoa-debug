@@ -11,7 +11,7 @@ overlay9:
     EU: 0x15A0
     NA: 0x15A0
     JP: 0x15A0
-  description: Unknown.
+  description: Seems to be loaded when flying on Staraptor.
   functions:
     - name: function_stub_overlay_09_0211cc2c
       address:

@@ -11,7 +11,7 @@ overlay28:
     EU: 0x1320
     NA: 0x1320
     JP: 0x1320
-  description: Unknown.
+  description: Seems to be loaded in the Map menu option.
   functions: []
   data:
     - name: OV28_STATIC_INITIALIZER

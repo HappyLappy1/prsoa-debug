@@ -11,7 +11,7 @@ overlay22:
     EU: 0x5320
     NA: 0x51E0
     JP: 0x5240
-  description: Unknown.
+  description: Seems to be loaded in the Glossary menu option.
   functions:
     - name: function_stub_overlay_22_0211cd7c
       address:

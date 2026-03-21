@@ -11,7 +11,7 @@ overlay5:
     EU: 0x43A0
     NA: 0x43A0
     JP: 0x43E0
-  description: Unknown.
+  description: Seems to be active when viewing the styler status menu.
   functions:
     - name: function_stub_overlay_05_0211ce0c
       address:

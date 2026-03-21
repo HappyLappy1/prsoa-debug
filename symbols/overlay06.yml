@@ -11,7 +11,7 @@ overlay6:
     EU: 0x1380
     NA: 0x1380
     JP: 0x13A0
-  description: Unknown.
+  description: Seems to be loaded in the Settings menu option.
   functions: []
   data:
     - name: OV6_STATIC_INITIALIZER

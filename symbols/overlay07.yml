@@ -11,7 +11,7 @@ overlay7:
     EU: 0x2E80
     NA: 0x2E80
     JP: 0x2E80
-  description: Unknown.
+  description: Seems to be active during the release menu option.
   functions:
     - name: function_stub_overlay_07_0211cfb0
       address:

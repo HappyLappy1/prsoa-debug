@@ -11,7 +11,7 @@ overlay27:
     EU: 0x4CC0
     NA: 0x4CA0
     JP: 0x4CC0
-  description: Unknown.
+  description: Seems to be loaded in the Quests menu option.
   functions:
     - name: function_stub_overlay_27_0211e128
       address:
