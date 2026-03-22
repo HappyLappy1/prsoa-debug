@@ -13,7 +13,7 @@ overlay26:
     JP: 0x1180
   description: Unknown.
   functions:
-    - name: function_stub_overlay_26_0211cf10
+    - name: ret_0211CF10
       address:
         NA: 0x211CF10
       description: |-

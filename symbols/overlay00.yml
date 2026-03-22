@@ -13,321 +13,343 @@ overlay0:
     JP: 0x5E740
   description: "Likely controls the \"ground\" mode for overworlds and cutscenes."
   functions:
-    - name: function_stub_overlay_00_021266ac
+    - name: ret_0211E958
+      address:
+        NA: 0x211E958
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: ret_02125334
+      address:
+        NA: 0x2125334
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: ret_021266AC
       address:
         NA: 0x21266AC
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_021266b0
+    - name: ret_021266B0
       address:
         NA: 0x21266B0
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_021266c4
+    - name: ret_021266C4
       address:
         NA: 0x21266C4
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_021266c8
+    - name: ret_021266C8
       address:
         NA: 0x21266C8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0213524c
+    - name: ret_0213524C
       address:
         NA: 0x213524C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0214234c
+    - name: ret_0214234C
       address:
         NA: 0x214234C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02142398
+    - name: ret_02142398
       address:
         NA: 0x2142398
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_021427ec
+    - name: ret_021427EC
       address:
         NA: 0x21427EC
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02142ab0
+    - name: ret_02142AB0
       address:
         NA: 0x2142AB0
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0214340c
+    - name: ret_0214340C
       address:
         NA: 0x214340C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02143ae0
+    - name: ret_02143AE0
       address:
         NA: 0x2143AE0
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02144368
+    - name: ret_02144368
       address:
         NA: 0x2144368
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0214436c
+    - name: ret_0214436C
       address:
         NA: 0x214436C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02145108
+    - name: ret_02145108
       address:
         NA: 0x2145108
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02145134
+    - name: ret_02145134
       address:
         NA: 0x2145134
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02145138
+    - name: ret_02145138
       address:
         NA: 0x2145138
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02145804
+    - name: ret_02145804
       address:
         NA: 0x2145804
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02145b4c
+    - name: ret_02145B4C
       address:
         NA: 0x2145B4C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02145b50
+    - name: ret_02145B50
       address:
         NA: 0x2145B50
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02146168
+    - name: ret_02146168
       address:
         NA: 0x2146168
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_021464bc
+    - name: ret_021464BC
       address:
         NA: 0x21464BC
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02146698
+    - name: ret_02146698
       address:
         NA: 0x2146698
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02146b20
+    - name: ret_02146A18
+      address:
+        NA: 0x2146A18
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: ret_02146B20
       address:
         NA: 0x2146B20
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02146f60
+    - name: ret_02146F60
       address:
         NA: 0x2146F60
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02146f64
+    - name: ret_02146F64
       address:
         NA: 0x2146F64
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02147564
+    - name: ret_02147564
       address:
         NA: 0x2147564
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02147634
+    - name: ret_02147634
       address:
         NA: 0x2147634
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02147a74
+    - name: ret_02147A74
       address:
         NA: 0x2147A74
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02147a78
+    - name: ret_02147A78
       address:
         NA: 0x2147A78
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02147ffc
+    - name: ret_02147FFC
       address:
         NA: 0x2147FFC
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_021480cc
+    - name: ret_021480CC
       address:
         NA: 0x21480CC
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_021485c0
+    - name: ret_021485C0
       address:
         NA: 0x21485C0
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_021485c4
+    - name: ret_021485C4
       address:
         NA: 0x21485C4
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02149118
+    - name: ret_02149118
       address:
         NA: 0x2149118
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0214911c
+    - name: ret_0214911C
       address:
         NA: 0x214911C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02149984
+    - name: ret_02149984
       address:
         NA: 0x2149984
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02149988
+    - name: ret_02149988
       address:
         NA: 0x2149988
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02149a74
+    - name: ret_02149A74
       address:
         NA: 0x2149A74
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02149a78
+    - name: ret_02149A78
       address:
         NA: 0x2149A78
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02149e58
+    - name: ret_02149E58
       address:
         NA: 0x2149E58
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02149e5c
+    - name: ret_02149E5C
       address:
         NA: 0x2149E5C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0214b6f0
+    - name: ret_0214B6F0
       address:
         NA: 0x214B6F0
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0214b6f4
+    - name: ret_0214B6F4
       address:
         NA: 0x214B6F4
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0214b93c
+    - name: ret_0214B93C
       address:
         NA: 0x214B93C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0214b940
+    - name: ret_0214B940
       address:
         NA: 0x214B940
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
+
     - name: GetStylerLevel
       address:
         NA: 0x214C0C0
@@ -335,6 +357,7 @@ overlay0:
         Retrieves the current player styler level.
         
         No params.
+
     - name: GetPartner1Status
       address:
         NA: 0x214D814
@@ -342,6 +365,7 @@ overlay0:
         Returns true if partner 1 is unlocked, and false otherwise.
         
         No params.
+
     - name: SetPartner1Status
       address:
         NA: 0x214D830
@@ -349,6 +373,7 @@ overlay0:
         Assigns the status of partner 1 to "Met" or "Not Met".
         
         r0: bool
+
     - name: GetPartner2Status
       address:
         NA: 0x214D860
@@ -356,6 +381,7 @@ overlay0:
         Returns true if partner 2 is unlocked, and false otherwise.
         
         No params.
+
     - name: SetPartner2Status
       address:
         NA: 0x214D87C
@@ -363,6 +389,7 @@ overlay0:
         Assigns the status of partner 2 to "Met" or "Not Met".
         
         r0: bool
+
     - name: GetPartner3Status
       address:
         NA: 0x214D8AC
@@ -370,6 +397,7 @@ overlay0:
         Returns true if partner 3 is unlocked, and false otherwise.
         
         No params.
+
     - name: SetPartner3Status
       address:
         NA: 0x214D8C8
@@ -377,6 +405,7 @@ overlay0:
         Assigns the status of partner 3 to "Met" or "Not Met".
         
         r0: bool
+
     - name: GetPartner4Status
       address:
         NA: 0x214D8F8
@@ -384,6 +413,7 @@ overlay0:
         Returns true if partner 4 is unlocked, and false otherwise.
         
         No params.
+
     - name: SetPartner4Status
       address:
         NA: 0x214D914
@@ -391,6 +421,7 @@ overlay0:
         Assigns the status of partner 4 to "Met" or "Not Met".
         
         r0: bool
+
     - name: GetPartner5Status
       address:
         NA: 0x214D944
@@ -398,6 +429,7 @@ overlay0:
         Returns true if partner 5 is unlocked, and false otherwise.
         
         No params.
+
     - name: SetPartner5Status
       address:
         NA: 0x214D960
@@ -405,6 +437,7 @@ overlay0:
         Assigns the status of partner 5 to "Met" or "Not Met".
         
         r0: bool
+
     - name: GetPartner6Status
       address:
         NA: 0x214D990
@@ -412,6 +445,7 @@ overlay0:
         Returns true if partner 6 is unlocked, and false otherwise.
         
         No params.
+
     - name: SetPartner6Status
       address:
         NA: 0x214D9AC
@@ -419,6 +453,7 @@ overlay0:
         Assigns the status of partner 6 to "Met" or "Not Met".
         
         r0: bool
+
     - name: GetPartner7Status
       address:
         NA: 0x214D9DC
@@ -426,6 +461,7 @@ overlay0:
         Returns true if partner 7 is unlocked, and false otherwise.
         
         No params.
+
     - name: SetPartner7Status
       address:
         NA: 0x214D9F8
@@ -433,6 +469,7 @@ overlay0:
         Assigns the status of partner 7 to "Met" or "Not Met".
         
         r0: bool
+
     - name: GetPartner8Status
       address:
         NA: 0x214DA28
@@ -440,6 +477,7 @@ overlay0:
         Returns true if partner 8 is unlocked, and false otherwise.
         
         No params.
+
     - name: SetPartner8Status
       address:
         NA: 0x214DA44
@@ -447,6 +485,7 @@ overlay0:
         Assigns the status of partner 8 to "Met" or "Not Met".
         
         r0: bool
+
     - name: GetPartner9Status
       address:
         NA: 0x214DA74
@@ -454,6 +493,7 @@ overlay0:
         Returns true if partner 9 is unlocked, and false otherwise.
         
         No params.
+
     - name: SetPartner9Status
       address:
         NA: 0x214DA90
@@ -461,6 +501,7 @@ overlay0:
         Assigns the status of partner 9 to "Met" or "Not Met".
         
         r0: bool
+
     - name: GetPartner10Status
       address:
         NA: 0x214DAC0
@@ -468,6 +509,7 @@ overlay0:
         Returns true if partner 10 is unlocked, and false otherwise.
         
         No params.
+
     - name: SetPartner10Status
       address:
         NA: 0x214DADC
@@ -475,6 +517,7 @@ overlay0:
         Assigns the status of partner 10 to "Met" or "Not Met".
         
         r0: bool
+
     - name: GetPartner11Status
       address:
         NA: 0x214DB0C
@@ -482,6 +525,7 @@ overlay0:
         Returns true if partner 11 is unlocked, and false otherwise.
         
         No params.
+
     - name: SetPartner11Status
       address:
         NA: 0x214DB28
@@ -489,6 +533,7 @@ overlay0:
         Assigns the status of partner 11 to "Met" or "Not Met".
         
         r0: bool
+
     - name: GetPartner12Status
       address:
         NA: 0x214DB58
@@ -496,6 +541,7 @@ overlay0:
         Returns true if partner 12 is unlocked, and false otherwise.
         
         No params.
+
     - name: SetPartner12Status
       address:
         NA: 0x214DB74
@@ -503,6 +549,7 @@ overlay0:
         Assigns the status of partner 12 to "Met" or "Not Met".
         
         r0: bool
+
     - name: GetPartner13Status
       address:
         NA: 0x214DBA4
@@ -510,6 +557,7 @@ overlay0:
         Returns true if partner 13 is unlocked, and false otherwise.
         
         No params.
+
     - name: SetPartner13Status
       address:
         NA: 0x214DBC0
@@ -517,6 +565,7 @@ overlay0:
         Assigns the status of partner 13 to "Met" or "Not Met".
         
         r0: bool
+
     - name: GetPartner14Status
       address:
         NA: 0x214DBF0
@@ -524,6 +573,7 @@ overlay0:
         Returns true if partner 14 is unlocked, and false otherwise.
         
         No params.
+
     - name: SetPartner14Status
       address:
         NA: 0x214DC0C
@@ -531,6 +581,7 @@ overlay0:
         Assigns the status of partner 14 to "Met" or "Not Met".
         
         r0: bool
+
     - name: GetPartner15Status
       address:
         NA: 0x214DC3C
@@ -538,6 +589,7 @@ overlay0:
         Returns true if partner 15 is unlocked, and false otherwise.
         
         No params.
+
     - name: SetPartner15Status
       address:
         NA: 0x214DC58
@@ -545,6 +597,7 @@ overlay0:
         Assigns the status of partner 15 to "Met" or "Not Met".
         
         r0: bool
+
     - name: GetPartner16Status
       address:
         NA: 0x214DC88
@@ -552,6 +605,7 @@ overlay0:
         Returns true if partner 16 is unlocked, and false otherwise.
         
         No params.
+
     - name: SetPartner16Status
       address:
         NA: 0x214DCA4
@@ -559,6 +613,7 @@ overlay0:
         Assigns the status of partner 16 to "Met" or "Not Met".
         
         r0: bool
+
     - name: GetPartner17Status
       address:
         NA: 0x214DCD4
@@ -566,6 +621,7 @@ overlay0:
         Returns true if partner 17 is unlocked, and false otherwise.
         
         No params.
+
     - name: SetPartner17Status
       address:
         NA: 0x214DCF0
@@ -573,6 +629,7 @@ overlay0:
         Assigns the status of partner 17 to "Met" or "Not Met".
         
         r0: bool
+
     - name: GetActiveQuestId
       address:
         NA: 0x214DD9C
@@ -580,6 +637,7 @@ overlay0:
         Returns the index of the currently active quest.
         
         No params.
+
     - name: GetActiveMissionId
       address:
         NA: 0x214DDAC
@@ -587,6 +645,7 @@ overlay0:
         Returns the index of the currently active mission.
         
         No params.
+
     - name: DebugPrintAllScriptVars
       address:
         NA: 0x214E24C
@@ -594,6 +653,7 @@ overlay0:
         Seems to format and debug print many text strings of sequential fields of the settings_and_variables struct.
         
         No params.
+
     - name: DebugPrintPartnerPokemonPokeAssists
       address:
         NA: 0x214F488
@@ -604,6 +664,7 @@ overlay0:
         r1: undefined4 
         r2: undefined4 
         r3: undefined4
+
     - name: GetCaptureLineLenRecordSimple
       address:
         NA: 0x214F6E4
@@ -611,6 +672,7 @@ overlay0:
         Retrieves the capture line length record from RANGER_DATA.
         
         No params.
+
     - name: SetCaptureLineLenRecordSimple
       address:
         NA: 0x214F708
@@ -618,6 +680,7 @@ overlay0:
         Writes to the capture line length record from RANGER_DATA.
         
         r0: int32_t
+
     - name: GetNumLoopsRecordSimple
       address:
         NA: 0x214F738
@@ -625,6 +688,7 @@ overlay0:
         Retrieves the num loops record from RANGER_DATA.
         
         No params.
+
     - name: SetNumLoopsRecordSimple
       address:
         NA: 0x214F748
@@ -632,6 +696,7 @@ overlay0:
         Writes to the num loops record from RANGER_DATA.
         
         r0: undefined4
+
     - name: GetPokemonCapturedRecordSimple
       address:
         NA: 0x214F760
@@ -639,6 +704,7 @@ overlay0:
         Retrieves the pokemon captured record from RANGER_DATA.
         
         No params.
+
     - name: SetPokemonCapturedRecordSimple
       address:
         NA: 0x214F770
@@ -646,6 +712,7 @@ overlay0:
         Writes to the pokemon captured record from RANGER_DATA.
         
         r0: undefined2
+
     - name: GetPokemonFledRecordSimple
       address:
         NA: 0x214F78C
@@ -653,6 +720,7 @@ overlay0:
         Retrieves the pokemon fled record from RANGER_DATA.
         
         No params.
+
     - name: SetPokemonFledRecordSimple
       address:
         NA: 0x214F79C
@@ -660,6 +728,7 @@ overlay0:
         Writes to the pokemon fled record from RANGER_DATA.
         
         r0: undefined2
+
     - name: GetPokeAssistsUsedRecordSimple
       address:
         NA: 0x214F7B8
@@ -667,6 +736,7 @@ overlay0:
         Retrieves the poke assists used record from RANGER_DATA.
         
         No params.
+
     - name: SetPokeAssistsUsedSimple
       address:
         NA: 0x214F7C8
@@ -674,6 +744,7 @@ overlay0:
         Writes to the poke assists used record from RANGER_DATA.
         
         r0: undefined2
+
     - name: GetMaxPlayTimeSeconds
       address:
         NA: 0x214F7E4
@@ -681,6 +752,7 @@ overlay0:
         Retrieves the current play time in seconds from RANGER_DATA.
         
         No params.
+
     - name: GetCurrentPartnerPokemonPokeAssists
       address:
         NA: 0x214F99C
@@ -688,392 +760,399 @@ overlay0:
         Retrieves the poke assist record for the current partner from RANGER_DATA. 
         
         No params.
-    - name: function_stub_overlay_00_0215061c
+    - name: ret_0215061C
       address:
         NA: 0x215061C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02150620
+    - name: ret_02150620
       address:
         NA: 0x2150620
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02150880
+    - name: ret_02150880
       address:
         NA: 0x2150880
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02151818
+    - name: ret_02151818
       address:
         NA: 0x2151818
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0215181c
+    - name: ret_0215181C
       address:
         NA: 0x215181C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02151820
+    - name: ret_02151820
       address:
         NA: 0x2151820
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02151824
+    - name: ret_02151824
       address:
         NA: 0x2151824
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02151828
+    - name: ret_02151828
       address:
         NA: 0x2151828
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0215182c
+    - name: ret_0215182C
       address:
         NA: 0x215182C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02151830
+    - name: ret_02151830
       address:
         NA: 0x2151830
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02151834
+    - name: ret_02151834
       address:
         NA: 0x2151834
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02151838
+    - name: ret_02151838
       address:
         NA: 0x2151838
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0215183c
+    - name: ret_0215183C
       address:
         NA: 0x215183C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02151840
+    - name: ret_02151840
       address:
         NA: 0x2151840
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02151844
+    - name: ret_02151844
       address:
         NA: 0x2151844
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02151898
+    - name: ret_02151898
       address:
         NA: 0x2151898
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0215189c
+    - name: ret_0215189C
       address:
         NA: 0x215189C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_021518a0
+    - name: ret_021518A0
       address:
         NA: 0x21518A0
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_021518a4
+    - name: ret_021518A4
       address:
         NA: 0x21518A4
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_021518a8
+    - name: ret_021518A8
       address:
         NA: 0x21518A8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0215215c
+    - name: ret_0215215C
       address:
         NA: 0x215215C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02152ab8
+    - name: ret_02152AB8
       address:
         NA: 0x2152AB8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0215ad00
+    - name: ret_0215AD00
       address:
         NA: 0x215AD00
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0215b7fc
+    - name: ret_0215B7FC
       address:
         NA: 0x215B7FC
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0215bdb4
+    - name: ret_0215BDB4
       address:
         NA: 0x215BDB4
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0215be88
+    - name: ret_0215BE88
       address:
         NA: 0x215BE88
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0215be8c
+    - name: ret_0215BE8C
       address:
         NA: 0x215BE8C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0215d108
+    - name: ret_0215D108
       address:
         NA: 0x215D108
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0215d10c
+    - name: ret_0215D10C
       address:
         NA: 0x215D10C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0215f854
+    - name: ret_0215F854
       address:
         NA: 0x215F854
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0215f858
+    - name: ret_0215F858
       address:
         NA: 0x215F858
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_021603a8
+    - name: ret_021603A8
       address:
         NA: 0x21603A8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_021603ac
+    - name: ret_021603AC
       address:
         NA: 0x21603AC
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02163cf4
+    - name: ret_02163CF4
       address:
         NA: 0x2163CF4
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02163cf8
+    - name: ret_02163CF8
       address:
         NA: 0x2163CF8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02165eac
+    - name: ret_02165868
+      address:
+        NA: 0x2165868
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: ret_02165EAC
       address:
         NA: 0x2165EAC
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02165eb0
+    - name: ret_02165EB0
       address:
         NA: 0x2165EB0
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02167984
+    - name: ret_02167984
       address:
         NA: 0x2167984
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02167988
+    - name: ret_02167988
       address:
         NA: 0x2167988
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0216798c
+    - name: ret_0216798C
       address:
         NA: 0x216798C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02167990
+    - name: ret_02167990
       address:
         NA: 0x2167990
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0216a5d0
+    - name: ret_0216A5D0
       address:
         NA: 0x216A5D0
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0216a5d4
+    - name: ret_0216A5D4
       address:
         NA: 0x216A5D4
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0216ae74
+    - name: ret_0216AE74
       address:
         NA: 0x216AE74
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0216b52c
+    - name: ret_0216B52C
       address:
         NA: 0x216B52C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0216b530
+    - name: ret_0216B530
       address:
         NA: 0x216B530
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0216cb50
+    - name: ret_0216CB50
       address:
         NA: 0x216CB50
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0216cb68
+    - name: ret_0216CB68
       address:
         NA: 0x216CB68
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0216cb80
+    - name: ret_0216CB80
       address:
         NA: 0x216CB80
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0216cc48
+    - name: ret_0216CC48
       address:
         NA: 0x216CC48
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0216cc4c
+    - name: ret_0216CC4C
       address:
         NA: 0x216CC4C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0216ebb4
+    - name: ret_0216EBB4
       address:
         NA: 0x216EBB4
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0216ebb8
+    - name: ret_0216EBB8
       address:
         NA: 0x216EBB8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0216f640
+    - name: ret_0216F640
       address:
         NA: 0x216F640
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_0216f644
+    - name: ret_0216F644
       address:
         NA: 0x216F644
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_00_02171b18
+    - name: ret_02171B18
       address:
         NA: 0x2171B18
       description: |-

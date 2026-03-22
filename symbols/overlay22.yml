@@ -13,28 +13,28 @@ overlay22:
     JP: 0x5240
   description: Seems to be loaded in the Glossary menu option.
   functions:
-    - name: function_stub_overlay_22_0211cd7c
+    - name: ret_0211CD7C
       address:
         NA: 0x211CD7C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_22_0211d2d0
+    - name: ret_0211D2D0
       address:
         NA: 0x211D2D0
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_22_0211e158
+    - name: ret_0211E158
       address:
         NA: 0x211E158
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_22_0211f10c
+    - name: ret_0211F10C
       address:
         NA: 0x211F10C
       description: |-

@@ -13,42 +13,56 @@ overlay27:
     JP: 0x4CC0
   description: Seems to be loaded in the Quests menu option.
   functions:
-    - name: function_stub_overlay_27_0211e128
+    - name: ret_0211CBF8
+      address:
+        NA: 0x211CBF8
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: ret_0211CEB0
+      address:
+        NA: 0x211CEB0
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: ret_0211E128
       address:
         NA: 0x211E128
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_27_0211e12c
+    - name: ret_0211E12C
       address:
         NA: 0x211E12C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_27_0211e200
+    - name: ret_0211E200
       address:
         NA: 0x211E200
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_27_0211e250
+    - name: ret_0211E250
       address:
         NA: 0x211E250
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_27_02120754
+    - name: ret_02120754
       address:
         NA: 0x2120754
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_27_02121078
+    - name: ret_02121078
       address:
         NA: 0x2121078
       description: |-

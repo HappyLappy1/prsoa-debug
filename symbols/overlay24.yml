@@ -13,14 +13,14 @@ overlay24:
     JP: 0x940
   description: Unknown.
   functions:
-    - name: function_stub_overlay_24_0211d008
+    - name: ret_0211D008
       address:
         NA: 0x211D008
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_24_0211d00c
+    - name: ret_0211D00C
       address:
         NA: 0x211D00C
       description: |-

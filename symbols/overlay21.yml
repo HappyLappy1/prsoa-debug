@@ -13,70 +13,84 @@ overlay21:
     JP: 0x7940
   description: Seems to be loaded while viewing the Browser menu option.
   functions:
-    - name: function_stub_overlay_21_02120764
+    - name: ret_02120764
       address:
         NA: 0x2120764
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_21_02120bcc
+    - name: ret_02120BCC
       address:
         NA: 0x2120BCC
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_21_02121384
+    - name: ret_02121384
       address:
         NA: 0x2121384
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_21_0212172c
+    - name: ret_021215A4
+      address:
+        NA: 0x21215A4
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: ret_0212172C
       address:
         NA: 0x212172C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_21_021218bc
+    - name: ret_021218BC
       address:
         NA: 0x21218BC
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_21_02121a30
+    - name: ret_02121A30
       address:
         NA: 0x2121A30
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_21_02121c20
+    - name: ret_02121C20
       address:
         NA: 0x2121C20
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_21_02121f18
+    - name: ret_02121E90
+      address:
+        NA: 0x2121E90
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: ret_02121F18
       address:
         NA: 0x2121F18
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_21_02121fb8
+    - name: ret_02121FB8
       address:
         NA: 0x2121FB8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_21_02122720
+    - name: ret_02122720
       address:
         NA: 0x2122720
       description: |-

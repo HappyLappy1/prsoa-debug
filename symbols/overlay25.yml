@@ -13,7 +13,7 @@ overlay25:
     JP: 0x3340
   description: Unknown.
   functions:
-    - name: function_stub_overlay_25_0211ceec
+    - name: ret_0211CEEC
       address:
         NA: 0x211CEEC
       description: |-

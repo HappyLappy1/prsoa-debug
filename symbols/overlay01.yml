@@ -13,6 +13,7 @@ overlay1:
     JP: 0x25D40
   description: Likely controls battles.
   functions:
+
     - name: BattleStateManager
       address:
         NA: 0x211F11C
@@ -23,6 +24,7 @@ overlay1:
         r1: undefined4 
         r2: uint32_t 
         r3: int32_t pointer
+
     - name: BattleBannerGraphicFrameUpdate
       address:
         NA: 0x211F3CC
@@ -30,6 +32,7 @@ overlay1:
         Seems to handle the display and removal of the graphic that appears at the start of each battle.
         
         r0: battle_struct pointer
+
     - name: BattleActiveFrameUpdate
       address:
         NA: 0x211F404
@@ -40,6 +43,7 @@ overlay1:
         r1: undefined4 
         r2: undefined4 
         r3: undefined4
+
     - name: BattleVerifyFleeFrameUpdate
       address:
         NA: 0x211F9D8
@@ -47,6 +51,7 @@ overlay1:
         Seems to handle the display and selection of the "Would you like to abandon the attempt" menu on fleeing a battle.
         
         r0: battle_struct pointer
+
     - name: BattleViewPartyFrameUpdate
       address:
         NA: 0x211FA90
@@ -54,6 +59,7 @@ overlay1:
         Seems to handle the display of the party during a battle, as well as displaying poke-assist information and such.
         
         r0: battle_struct pointer
+
     - name: BattleHandleWinFrameUpdate
       address:
         NA: 0x211FB88
@@ -61,6 +67,7 @@ overlay1:
         Seems to handle winning the battle, displaying exp, capture rank, etc.
         
         r0: battle_struct pointer
+
     - name: BattleHandleLossFrameUpdate
       address:
         NA: 0x211FC38
@@ -71,6 +78,7 @@ overlay1:
         r1: undefined4 
         r2: uint32_t 
         r3: int32_t pointer
+
     - name: EndBattleFrameUpdate
       address:
         NA: 0x211FCE0
@@ -78,6 +86,7 @@ overlay1:
         Seems to run as the screen fades out to end the battle.
         
         r0: battle_struct pointer
+
     - name: RegisterInBrowserFrameUpdate
       address:
         NA: 0x2120694
@@ -88,6 +97,7 @@ overlay1:
         r1: undefined4 
         r2: undefined4 
         r3: undefined4
+
     - name: FightVictoryCheerFrameUpdate
       address:
         NA: 0x21208BC
@@ -95,6 +105,7 @@ overlay1:
         Seems to handle exclusively the victory jingle at the end of a fight, before exp is displayed.
         
         r0: battle_struct pointer
+
     - name: FreeBattlePokemonSlot
       address:
         NA: 0x2122CA4
@@ -103,6 +114,7 @@ overlay1:
         
         r0: battle_struct pointer
         r1: slot index to remove
+
     - name: UpdateBrowserLifetimeCaughtAndMore
       address:
         NA: 0x2122DB4
@@ -113,107 +125,121 @@ overlay1:
         r1: undefined4 
         r2: undefined4 
         r3: undefined4
-    - name: function_stub_overlay_01_02123770
+    - name: ret_02123770
       address:
         NA: 0x2123770
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_01_021293d4
+    - name: ret_021293D4
       address:
         NA: 0x21293D4
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_01_0212c028
+    - name: ret_0212C028
       address:
         NA: 0x212C028
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_01_0212e524
+    - name: ret_0212E524
       address:
         NA: 0x212E524
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_01_0212e888
+    - name: ret_0212E888
       address:
         NA: 0x212E888
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_01_0212ee20
+    - name: ret_0212EE20
       address:
         NA: 0x212EE20
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_01_0212ee38
+    - name: ret_0212EE38
       address:
         NA: 0x212EE38
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_01_02130b70
+    - name: ret_02130B70
       address:
         NA: 0x2130B70
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_01_02131b44
+    - name: ret_02131B44
       address:
         NA: 0x2131B44
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_01_02133c04
+    - name: ret_02133C04
       address:
         NA: 0x2133C04
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_01_02134350
+    - name: ret_02134350
       address:
         NA: 0x2134350
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_01_02136244
+    - name: ret_02136244
       address:
         NA: 0x2136244
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_01_021368f8
+    - name: ret_021368F8
       address:
         NA: 0x21368F8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_01_02136ae8
+    - name: ret_02136AE8
       address:
         NA: 0x2136AE8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_01_02137b94
+    - name: ret_02137B90
+      address:
+        NA: 0x2137B90
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: ret_02137B94
       address:
         NA: 0x2137B94
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: ret_0213AE14
+      address:
+        NA: 0x213AE14
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         

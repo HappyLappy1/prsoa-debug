@@ -13,49 +13,49 @@ overlay10:
     JP: 0xC0
   description: Unknown.
   functions:
-    - name: function_stub_overlay_10_0211c9e0
+    - name: ret_0211C9E0
       address:
         NA: 0x211C9E0
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_10_0211ca08
+    - name: ret_0211CA08
       address:
         NA: 0x211CA08
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_10_0211ca0c
+    - name: ret_0211CA0C
       address:
         NA: 0x211CA0C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_10_0211ca10
+    - name: ret_0211CA10
       address:
         NA: 0x211CA10
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_10_0211ca14
+    - name: ret_0211CA14
       address:
         NA: 0x211CA14
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_10_0211ca18
+    - name: ret_0211CA18
       address:
         NA: 0x211CA18
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: function_stub_overlay_10_0211ca1c
+    - name: ret_0211CA1C
       address:
         NA: 0x211CA1C
       description: |-

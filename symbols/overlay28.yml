@@ -12,7 +12,14 @@ overlay28:
     NA: 0x1320
     JP: 0x1320
   description: Seems to be loaded in the Map menu option.
-  functions: []
+  functions:
+    - name: ret_0211CC8C
+      address:
+        NA: 0x211CC8C
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
   data:
     - name: OV28_STATIC_INITIALIZER
       address:
