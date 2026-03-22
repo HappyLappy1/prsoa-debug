@@ -26,7 +26,8 @@ void GetPartnerGaugeCurrent(struct battle_combatants* param_1, int param_2);
 void BattleSetPartnerGaugeMax(struct battle_combatants* param_1, int param_2);
 void BattleSetPartnerGaugeFillRate(struct battle_combatants* param_1, int param_2);
 void BattleAddPartyPokemon(struct battle_combatants* param_1, int16_t form_id, int8_t param_3);
-void BattleTryAddNewEnemyForm(struct battle_combatants* param_1, unsigned int param_2, unsigned int param_3);
+void BattleTryAddNewEnemyForm(struct battle_combatants* param_1, unsigned int param_2,
+                              unsigned int param_3);
 void BattleSetArenaGraphicId(struct battle_combatants* param_1, int8_t param_2);
 void BattleSetWeatherEffectId(struct battle_combatants* param_1, int8_t param_2);
 void BattleSetSequenceScriptId(struct battle_combatants* param_1, int8_t param_2);
@@ -62,7 +63,7 @@ bool BattleGetViewPartyStatus(struct battle_combatants* param_1);
 bool BattleGetCanFleeStatus(struct battle_combatants* param_1);
 bool BattleGetBossFightStatus(struct battle_combatants* param_1);
 int8_t BattleGetUnkField0x52(struct battle_combatants* param_1);
-int8_t BattleGetFieldAllocBits(struct battle_combatants *param_1);
+int8_t BattleGetFieldAllocBits(struct battle_combatants* param_1);
 int8_t BattleGetUnkField0x54(struct battle_combatants* param_1);
 int16_t BattleGetGenderAndUniform(struct battle_combatants* param_1);
 void ret_02010CEC(void);
@@ -89,8 +90,10 @@ void SetGameSavesRecord(struct ranger_data* param_1, uint32_t param_2);
 int32_t AddGameSavesRecord(struct ranger_data* param_1, int32_t param_2);
 void SetPokemonRidesRecord(struct ranger_data* param_1, uint32_t param_2);
 int32_t AddPokemonRidesRecord(struct ranger_data* param_1, int32_t param_2);
-void SetPartnerPokemonBestnessIfGreaterByIndex(struct ranger_data* param_1, int param_2, unsigned int param_3);
-int32_t IncrementPartnerPokeAssistsBySpecies(struct ranger_data* param_1, int16_t param_2, int param_3);
+void SetPartnerPokemonBestnessIfGreaterByIndex(struct ranger_data* param_1, int param_2,
+                                               unsigned int param_3);
+int32_t IncrementPartnerPokeAssistsBySpecies(struct ranger_data* param_1, int16_t param_2,
+                                             int param_3);
 undefined2 MaybeGetBestPartnerRecord(struct ranger_data* param_1);
 void SetCaptureLineLenRecord(struct ranger_data* param_1, uint32_t param_2);
 int32_t AddCaptureLineLenRecord(struct ranger_data* param_1, int32_t param_2);
@@ -171,14 +174,16 @@ void ret_020439C8(void);
 void ret_02044144(void);
 void ret_02044148(void);
 void ret_020441AC(void);
-void DebugPrintInternalVeneer(undefined4 param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4);
+void DebugPrintInternalVeneer(undefined4 param_1, undefined4 param_2, undefined4 param_3,
+                              undefined4 param_4);
 void ret_02046D3C(void);
 int32_t close(int32_t fd);
 int32_t socket(int32_t domain, int32_t family, int32_t protocol);
 int32_t bind(int32_t sockfd, const struct sockaddr_in* addr);
 int32_t connect(int32_t sockfd, const struct sockaddr_in* addr);
 int32_t recv(int32_t sockfd, void* buf, size_t size, int32_t flags);
-int32_t recvfrom(int32_t sockfd, void* buf, size_t size, int32_t flags, struct sockaddr_in* addr, int32_t addr_len);
+int32_t recvfrom(int32_t sockfd, void* buf, size_t size, int32_t flags, struct sockaddr_in* addr,
+                 int32_t addr_len);
 int32_t send(int32_t sockfd, const void* buf, size_t size, int32_t flags);
 void ret_02049D08(void);
 void ret_0205FC98(void);

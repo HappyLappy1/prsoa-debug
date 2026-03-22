@@ -86,7 +86,8 @@ void SetPartner17Status(bool param_1);
 int8_t GetActiveQuestId(void);
 int8_t GetActiveMissionId(void);
 void DebugPrintAllScriptVars(void);
-undefined* DebugPrintPartnerPokemonPokeAssists(int param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4);
+undefined* DebugPrintPartnerPokemonPokeAssists(int param_1, undefined4 param_2, undefined4 param_3,
+                                               undefined4 param_4);
 int16_t GetPokemonCapturedRecordSimple(void);
 void SetPokemonCapturedRecordSimple(undefined2 param_1);
 int16_t GetPokemonFledRecordSimple(void);

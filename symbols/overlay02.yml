@@ -54,7 +54,7 @@ overlay2:
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
-        No params.  
+        No params.
   data:
     - name: OV2_STATIC_INITIALIZER
       address:

@@ -13,7 +13,6 @@ overlay1:
     JP: 0x25D40
   description: Likely controls battles.
   functions:
-
     - name: BattleStateManager
       address:
         NA: 0x211F11C
@@ -24,7 +23,6 @@ overlay1:
         r1: undefined4 
         r2: uint32_t 
         r3: int32_t pointer
-
     - name: BattleBannerGraphicFrameUpdate
       address:
         NA: 0x211F3CC
@@ -32,7 +30,6 @@ overlay1:
         Seems to handle the display and removal of the graphic that appears at the start of each battle.
         
         r0: battle_struct pointer
-
     - name: BattleActiveFrameUpdate
       address:
         NA: 0x211F404
@@ -43,7 +40,6 @@ overlay1:
         r1: undefined4 
         r2: undefined4 
         r3: undefined4
-
     - name: BattleVerifyFleeFrameUpdate
       address:
         NA: 0x211F9D8
@@ -51,7 +47,6 @@ overlay1:
         Seems to handle the display and selection of the "Would you like to abandon the attempt" menu on fleeing a battle.
         
         r0: battle_struct pointer
-
     - name: BattleViewPartyFrameUpdate
       address:
         NA: 0x211FA90
@@ -59,7 +54,6 @@ overlay1:
         Seems to handle the display of the party during a battle, as well as displaying poke-assist information and such.
         
         r0: battle_struct pointer
-
     - name: BattleHandleWinFrameUpdate
       address:
         NA: 0x211FB88
@@ -67,7 +61,6 @@ overlay1:
         Seems to handle winning the battle, displaying exp, capture rank, etc.
         
         r0: battle_struct pointer
-
     - name: BattleHandleLossFrameUpdate
       address:
         NA: 0x211FC38
@@ -78,7 +71,6 @@ overlay1:
         r1: undefined4 
         r2: uint32_t 
         r3: int32_t pointer
-
     - name: EndBattleFrameUpdate
       address:
         NA: 0x211FCE0
@@ -86,7 +78,6 @@ overlay1:
         Seems to run as the screen fades out to end the battle.
         
         r0: battle_struct pointer
-
     - name: RegisterInBrowserFrameUpdate
       address:
         NA: 0x2120694
@@ -97,7 +88,6 @@ overlay1:
         r1: undefined4 
         r2: undefined4 
         r3: undefined4
-
     - name: FightVictoryCheerFrameUpdate
       address:
         NA: 0x21208BC
@@ -105,7 +95,6 @@ overlay1:
         Seems to handle exclusively the victory jingle at the end of a fight, before exp is displayed.
         
         r0: battle_struct pointer
-
     - name: FreeBattlePokemonSlot
       address:
         NA: 0x2122CA4
@@ -114,7 +103,6 @@ overlay1:
         
         r0: battle_struct pointer
         r1: slot index to remove
-
     - name: UpdateBrowserLifetimeCaughtAndMore
       address:
         NA: 0x2122DB4
